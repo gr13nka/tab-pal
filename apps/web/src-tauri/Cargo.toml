@@ -1,0 +1,20 @@
+[package]
+name = "tab-pal"
+version = "0.0.0"
+description = "tab-pal — colour palettes"
+edition = "2021"
+
+[lib]
+name = "tab_pal_lib"
+# staticlib/cdylib are required for the mobile targets; rlib for desktop.
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-fs = "2"
+tauri-plugin-dialog = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

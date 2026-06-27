@@ -1,0 +1,17 @@
+#!/bin/sh
+# Launch tab-pal from the project directory, preferring its virtualenv so the
+# `textual` dependency is found. Works no matter which directory you run it from.
+here="$(cd "$(dirname "$0")" && pwd)"
+
+if [ -x "$here/.venv/bin/python" ]; then
+    python="$here/.venv/bin/python"
+else
+    python="$(command -v python3 || command -v python)"
+fi
+
+if [ -z "$python" ]; then
+    echo "tab-pal: no Python interpreter found" >&2
+    exit 1
+fi
+
+exec env PYTHONPATH="$here${PYTHONPATH:+:$PYTHONPATH}" "$python" -m tab_pal.tab_pal "$@"

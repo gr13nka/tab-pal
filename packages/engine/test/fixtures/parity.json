@@ -1,0 +1,8302 @@
+{
+"source": "legacy/python-tui/tab_pal/colors.py",
+"rgbToLab": [
+{
+"hex": "#ff0000",
+"lab": [
+53.23288178584245,
+80.10930952982204,
+67.22006831026425
+]
+},
+{
+"hex": "#00ff00",
+"lab": [
+87.73703347354422,
+-86.18463649762525,
+83.18116474777854
+]
+},
+{
+"hex": "#0000ff",
+"lab": [
+32.302586667249486,
+79.19666178930935,
+-107.86368104495168
+]
+},
+{
+"hex": "#ffffff",
+"lab": [
+100.0,
+0.00526049995830391,
+-0.010408184525267927
+]
+},
+{
+"hex": "#000000",
+"lab": [
+0.0,
+0.0,
+0.0
+]
+},
+{
+"hex": "#808080",
+"lab": [
+53.58501345216902,
+0.003155620347972121,
+-0.006243566036268078
+]
+},
+{
+"hex": "#1f77b4",
+"lab": [
+47.98194318734857,
+-3.2013705168814077,
+-39.328687052931265
+]
+},
+{
+"hex": "#e377c2",
+"lab": [
+64.49922174373052,
+51.228704211696616,
+-20.449731518070745
+]
+},
+{
+"hex": "#2ca02c",
+"lab": [
+57.90290743333672,
+-54.08607403674976,
+48.72433141304805
+]
+},
+{
+"hex": "#fde725",
+"lab": [
+90.8565318898838,
+-10.310289512745541,
+85.30201151393392
+]
+}
+],
+"hexToLch": [
+{
+"hex": "#ff0000",
+"lch": [
+53.23288178584245,
+104.57551843993616,
+40.00015790646365
+]
+},
+{
+"hex": "#00ff00",
+"lch": [
+87.73703347354422,
+119.77853621173067,
+136.01595610184012
+]
+},
+{
+"hex": "#0000ff",
+"lch": [
+32.302586667249486,
+133.81586201619493,
+306.2872015643272
+]
+},
+{
+"hex": "#ffffff",
+"lch": [
+100.0,
+0.011662039483869971,
+296.81292623674057
+]
+},
+{
+"hex": "#000000",
+"lch": [
+0.0,
+0.0,
+0.0
+]
+},
+{
+"hex": "#808080",
+"lch": [
+53.58501345216902,
+0.006995717020418705,
+296.8129262366901
+]
+},
+{
+"hex": "#1f77b4",
+"lch": [
+47.98194318734857,
+39.458768334728354,
+265.3463614004046
+]
+},
+{
+"hex": "#e377c2",
+"lch": [
+64.49922174373052,
+55.159511005543536,
+338.2388558636966
+]
+},
+{
+"hex": "#2ca02c",
+"lch": [
+57.90290743333672,
+72.79672984658939,
+137.98537062151732
+]
+},
+{
+"hex": "#fde725",
+"lch": [
+90.8565318898838,
+85.92284468149286,
+96.89179908063127
+]
+}
+],
+"roundTrip": [
+{
+"hex": "#ff0000",
+"out": "#ff0000"
+},
+{
+"hex": "#00ff00",
+"out": "#00ff00"
+},
+{
+"hex": "#0000ff",
+"out": "#0000ff"
+},
+{
+"hex": "#ffffff",
+"out": "#ffffff"
+},
+{
+"hex": "#000000",
+"out": "#000000"
+},
+{
+"hex": "#808080",
+"out": "#808080"
+},
+{
+"hex": "#1f77b4",
+"out": "#1f77b4"
+},
+{
+"hex": "#e377c2",
+"out": "#e377c2"
+},
+{
+"hex": "#2ca02c",
+"out": "#2ca02c"
+},
+{
+"hex": "#fde725",
+"out": "#fde725"
+}
+],
+"generate": [
+{
+"type": "regular",
+"n": 1,
+"mode": "complementary",
+"baseHue": 0,
+"out": [
+"#f05b93"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "complementary",
+"baseHue": 0,
+"out": [
+"#ff9fc3",
+"#00aa8f",
+"#a22a5b"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "complementary",
+"baseHue": 0,
+"out": [
+"#ff9fc3",
+"#38d7bf",
+"#ea558e",
+"#006c58",
+"#a22a5b"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "complementary",
+"baseHue": 0,
+"out": [
+"#ff9fc3",
+"#38d7bf",
+"#ea558e",
+"#00a48a",
+"#a22a5b",
+"#006c58"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "complementary",
+"baseHue": 0,
+"out": [
+"#ff9fc3",
+"#38d7bf",
+"#fc6b9f",
+"#00a1b1",
+"#d6427d",
+"#009279",
+"#a22a5b",
+"#006c58"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "complementary",
+"baseHue": 20,
+"out": [
+"#f35e6f"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "complementary",
+"baseHue": 20,
+"out": [
+"#ffa0a6",
+"#00aab4",
+"#a32e3f"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "complementary",
+"baseHue": 20,
+"out": [
+"#ffa0a6",
+"#00d7dc",
+"#ec586a",
+"#006c75",
+"#a32e3f"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "complementary",
+"baseHue": 20,
+"out": [
+"#ffa0a6",
+"#00d7dc",
+"#ec586a",
+"#00a5af",
+"#a32e3f",
+"#006c75"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "complementary",
+"baseHue": 20,
+"out": [
+"#ffa0a6",
+"#00d7dc",
+"#ff6d7b",
+"#00b7c0",
+"#d84559",
+"#00929d",
+"#a32e3f",
+"#006c75"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "complementary",
+"baseHue": 30,
+"out": [
+"#ef635d"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "complementary",
+"baseHue": 30,
+"out": [
+"#ffa399",
+"#00aac6",
+"#a03332"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "complementary",
+"baseHue": 30,
+"out": [
+"#ffa399",
+"#00d6ea",
+"#e95e58",
+"#006c83",
+"#a03332"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "complementary",
+"baseHue": 30,
+"out": [
+"#ffa399",
+"#00d6ea",
+"#e95e58",
+"#00a4c0",
+"#a03332",
+"#006c83"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "complementary",
+"baseHue": 30,
+"out": [
+"#ffa399",
+"#00d6ea",
+"#fc726a",
+"#00b6d1",
+"#d44b49",
+"#0092ae",
+"#a03332",
+"#006c83"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "complementary",
+"baseHue": 45,
+"out": [
+"#e56d45"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "complementary",
+"baseHue": 45,
+"out": [
+"#ffa987",
+"#00a8dd",
+"#983c1f"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "complementary",
+"baseHue": 45,
+"out": [
+"#ffa987",
+"#00d4fb",
+"#df6840",
+"#006b94",
+"#983c1f"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "complementary",
+"baseHue": 45,
+"out": [
+"#ffa987",
+"#00d4fb",
+"#df6840",
+"#00a2d7",
+"#983c1f",
+"#006b94"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "complementary",
+"baseHue": 45,
+"out": [
+"#ffa987",
+"#00d4fb",
+"#f27b53",
+"#00b4e8",
+"#ca5731",
+"#0090c4",
+"#983c1f",
+"#006b94"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "complementary",
+"baseHue": 90,
+"out": [
+"#ac8e0f"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "complementary",
+"baseHue": 90,
+"out": [
+"#dcbe6b",
+"#0097fe",
+"#6c5800"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "complementary",
+"baseHue": 90,
+"out": [
+"#dcbe6b",
+"#80c5ff",
+"#a68905",
+"#005fae",
+"#6c5800"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "complementary",
+"baseHue": 90,
+"out": [
+"#dcbe6b",
+"#80c5ff",
+"#a68905",
+"#0092f8",
+"#6c5800",
+"#005fae"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "complementary",
+"baseHue": 90,
+"out": [
+"#dcbe6b",
+"#80c5ff",
+"#b99a27",
+"#00a3ff",
+"#937800",
+"#0081e5",
+"#6c5800",
+"#005fae"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "complementary",
+"baseHue": 137.5,
+"out": [
+"#4ca342"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "complementary",
+"baseHue": 137.5,
+"out": [
+"#93d086",
+"#bb74db",
+"#1d671a"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "complementary",
+"baseHue": 137.5,
+"out": [
+"#93d086",
+"#e4adfa",
+"#469e3d",
+"#7a4293",
+"#1d671a"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "complementary",
+"baseHue": 137.5,
+"out": [
+"#93d086",
+"#e4adfa",
+"#469e3d",
+"#b66ed5",
+"#1d671a",
+"#7a4293"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "complementary",
+"baseHue": 137.5,
+"out": [
+"#93d086",
+"#e4adfa",
+"#5caf50",
+"#c781e6",
+"#328c2c",
+"#a35dc3",
+"#1d671a",
+"#7a4293"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "complementary",
+"baseHue": 200,
+"out": [
+"#00aab4"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "complementary",
+"baseHue": 200,
+"out": [
+"#00d7dc",
+"#f35e6f",
+"#006c75"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "complementary",
+"baseHue": 200,
+"out": [
+"#00d7dc",
+"#ffa0a6",
+"#00a5af",
+"#a32e3f",
+"#006c75"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "complementary",
+"baseHue": 200,
+"out": [
+"#00d7dc",
+"#ffa0a6",
+"#00a5af",
+"#ec586a",
+"#006c75",
+"#a32e3f"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "complementary",
+"baseHue": 200,
+"out": [
+"#00d7dc",
+"#ffa0a6",
+"#00b7c0",
+"#ff6d7b",
+"#00929d",
+"#d84559",
+"#006c75",
+"#a32e3f"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "complementary",
+"baseHue": 240,
+"out": [
+"#00a4ef"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "complementary",
+"baseHue": 240,
+"out": [
+"#10d0ff",
+"#d6792f",
+"#0068a2"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "complementary",
+"baseHue": 240,
+"out": [
+"#10d0ff",
+"#feaf79",
+"#009fe9",
+"#8d4709",
+"#0068a2"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "complementary",
+"baseHue": 240,
+"out": [
+"#10d0ff",
+"#feaf79",
+"#009fe9",
+"#d0742a",
+"#0068a2",
+"#8d4709"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "complementary",
+"baseHue": 240,
+"out": [
+"#10d0ff",
+"#feaf79",
+"#00b0f9",
+"#e3863e",
+"#008dd6",
+"#bb6318",
+"#0068a2",
+"#8d4709"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "complementary",
+"baseHue": 300,
+"out": [
+"#8f82f0"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "complementary",
+"baseHue": 300,
+"out": [
+"#c5b6ff",
+"#759d27",
+"#564ea3"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "complementary",
+"baseHue": 300,
+"out": [
+"#c5b6ff",
+"#b0cb76",
+"#8a7dea",
+"#426300",
+"#564ea3"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "complementary",
+"baseHue": 300,
+"out": [
+"#c5b6ff",
+"#b0cb76",
+"#8a7dea",
+"#709821",
+"#564ea3",
+"#426300"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "complementary",
+"baseHue": 300,
+"out": [
+"#c5b6ff",
+"#b0cb76",
+"#9d8ffa",
+"#83a938",
+"#776cd7",
+"#5e8608",
+"#564ea3",
+"#426300"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "complementary",
+"baseHue": 359,
+"out": [
+"#f05b95"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "complementary",
+"baseHue": 359,
+"out": [
+"#ff9fc4",
+"#00aa8d",
+"#a12a5d"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "complementary",
+"baseHue": 359,
+"out": [
+"#ff9fc4",
+"#3bd7be",
+"#e95590",
+"#006c57",
+"#a12a5d"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "complementary",
+"baseHue": 359,
+"out": [
+"#ff9fc4",
+"#3bd7be",
+"#e95590",
+"#00a488",
+"#a12a5d",
+"#006c57"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "complementary",
+"baseHue": 359,
+"out": [
+"#ff9fc4",
+"#3bd7be",
+"#fb6ba1",
+"#00b699",
+"#d5427e",
+"#009277",
+"#a12a5d",
+"#006c57"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "analogous",
+"baseHue": 0,
+"out": [
+"#d26ac8"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "analogous",
+"baseHue": 0,
+"out": [
+"#d26ac8",
+"#f05b93",
+"#ef635d"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "analogous",
+"baseHue": 0,
+"out": [
+"#f6a7ec",
+"#ff9fc3",
+"#ef635d",
+"#8b3984",
+"#a22a5b"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "analogous",
+"baseHue": 0,
+"out": [
+"#f6a7ec",
+"#ff9fc3",
+"#ffa399",
+"#8b3984",
+"#a22a5b",
+"#a03332"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "analogous",
+"baseHue": 0,
+"out": [
+"#f6a7ec",
+"#ff9fc3",
+"#ffa399",
+"#cc64c3",
+"#ea558e",
+"#a03332",
+"#8b3984",
+"#a22a5b"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "analogous",
+"baseHue": 20,
+"out": [
+"#ea5ea5"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "analogous",
+"baseHue": 20,
+"out": [
+"#ea5ea5",
+"#f35e6f",
+"#e1713e"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "analogous",
+"baseHue": 20,
+"out": [
+"#ffa1d1",
+"#ffa0a6",
+"#e1713e",
+"#9d2d69",
+"#a32e3f"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "analogous",
+"baseHue": 20,
+"out": [
+"#ffa1d1",
+"#ffa0a6",
+"#ffab82",
+"#9d2d69",
+"#a32e3f",
+"#954018"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "analogous",
+"baseHue": 20,
+"out": [
+"#ffa1d1",
+"#ffa0a6",
+"#ffab82",
+"#e458a0",
+"#ec586a",
+"#954018",
+"#9d2d69",
+"#a32e3f"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "analogous",
+"baseHue": 30,
+"out": [
+"#f05b93"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "analogous",
+"baseHue": 30,
+"out": [
+"#f05b93",
+"#ef635d",
+"#d6792f"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "analogous",
+"baseHue": 30,
+"out": [
+"#ff9fc3",
+"#ffa399",
+"#d6792f",
+"#a22a5b",
+"#a03332"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "analogous",
+"baseHue": 30,
+"out": [
+"#ff9fc3",
+"#ffa399",
+"#feaf79",
+"#a22a5b",
+"#a03332",
+"#8d4709"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "analogous",
+"baseHue": 30,
+"out": [
+"#ff9fc3",
+"#ffa399",
+"#feaf79",
+"#ea558e",
+"#e95e58",
+"#8d4709",
+"#a22a5b",
+"#a03332"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "analogous",
+"baseHue": 45,
+"out": [
+"#f35c77"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "analogous",
+"baseHue": 45,
+"out": [
+"#f35c77",
+"#e56d45",
+"#c3841c"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "analogous",
+"baseHue": 45,
+"out": [
+"#ffa0ad",
+"#ffa987",
+"#c3841c",
+"#a42c46",
+"#983c1f"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "analogous",
+"baseHue": 45,
+"out": [
+"#ffa0ad",
+"#ffa987",
+"#eeb76f",
+"#a42c46",
+"#983c1f",
+"#7e5000"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "analogous",
+"baseHue": 45,
+"out": [
+"#ffa0ad",
+"#ffa987",
+"#eeb76f",
+"#ed5772",
+"#df6840",
+"#7e5000",
+"#a42c46",
+"#983c1f"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "analogous",
+"baseHue": 90,
+"out": [
+"#d6792f"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "analogous",
+"baseHue": 90,
+"out": [
+"#d6792f",
+"#ac8e0f",
+"#759d27"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "analogous",
+"baseHue": 90,
+"out": [
+"#feaf79",
+"#dcbe6b",
+"#759d27",
+"#8d4709",
+"#6c5800"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "analogous",
+"baseHue": 90,
+"out": [
+"#feaf79",
+"#dcbe6b",
+"#b0cb76",
+"#8d4709",
+"#6c5800",
+"#426300"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "analogous",
+"baseHue": 90,
+"out": [
+"#feaf79",
+"#dcbe6b",
+"#b0cb76",
+"#d0742a",
+"#a68905",
+"#426300",
+"#8d4709",
+"#6c5800"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "analogous",
+"baseHue": 137.5,
+"out": [
+"#8e9817"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "analogous",
+"baseHue": 137.5,
+"out": [
+"#8e9817",
+"#4ca342",
+"#00a977"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "analogous",
+"baseHue": 137.5,
+"out": [
+"#c3c66e",
+"#93d086",
+"#00a977",
+"#555f00",
+"#1d671a"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "analogous",
+"baseHue": 137.5,
+"out": [
+"#c3c66e",
+"#93d086",
+"#59d6ad",
+"#555f00",
+"#1d671a",
+"#006b46"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "analogous",
+"baseHue": 137.5,
+"out": [
+"#c3c66e",
+"#93d086",
+"#59d6ad",
+"#88920f",
+"#469e3d",
+"#006b46",
+"#555f00",
+"#1d671a"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "analogous",
+"baseHue": 200,
+"out": [
+"#00a97c"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "analogous",
+"baseHue": 200,
+"out": [
+"#00a97c",
+"#00aab4",
+"#00a7e3"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "analogous",
+"baseHue": 200,
+"out": [
+"#53d6b1",
+"#00d7dc",
+"#00a7e3",
+"#006c49",
+"#006c75"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "analogous",
+"baseHue": 200,
+"out": [
+"#53d6b1",
+"#00d7dc",
+"#00d3ff",
+"#006c49",
+"#006c75",
+"#006a9a"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "analogous",
+"baseHue": 200,
+"out": [
+"#53d6b1",
+"#00d7dc",
+"#00d3ff",
+"#00a477",
+"#00a5af",
+"#006a9a",
+"#006c49",
+"#006c75"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "analogous",
+"baseHue": 240,
+"out": [
+"#00aac6"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "analogous",
+"baseHue": 240,
+"out": [
+"#00aac6",
+"#00a4ef",
+"#0097fe"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "analogous",
+"baseHue": 240,
+"out": [
+"#00d6ea",
+"#10d0ff",
+"#0097fe",
+"#006c83",
+"#0068a2"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "analogous",
+"baseHue": 240,
+"out": [
+"#00d6ea",
+"#10d0ff",
+"#80c5ff",
+"#006c83",
+"#0068a2",
+"#005fae"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "analogous",
+"baseHue": 240,
+"out": [
+"#00d6ea",
+"#10d0ff",
+"#80c5ff",
+"#00a4c0",
+"#009fe9",
+"#005fae",
+"#006c83",
+"#0068a2"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "analogous",
+"baseHue": 300,
+"out": [
+"#0097fe"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "analogous",
+"baseHue": 300,
+"out": [
+"#0097fe",
+"#8f82f0",
+"#d26ac8"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "analogous",
+"baseHue": 300,
+"out": [
+"#80c5ff",
+"#c5b6ff",
+"#d26ac8",
+"#005fae",
+"#564ea3"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "analogous",
+"baseHue": 300,
+"out": [
+"#80c5ff",
+"#c5b6ff",
+"#f6a7ec",
+"#005fae",
+"#564ea3",
+"#8b3984"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "analogous",
+"baseHue": 300,
+"out": [
+"#80c5ff",
+"#c5b6ff",
+"#f6a7ec",
+"#0092f8",
+"#8a7dea",
+"#8b3984",
+"#005fae",
+"#564ea3"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "analogous",
+"baseHue": 359,
+"out": [
+"#d06aca"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "analogous",
+"baseHue": 359,
+"out": [
+"#d06aca",
+"#f05b95",
+"#f0625f"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "analogous",
+"baseHue": 359,
+"out": [
+"#f4a7ed",
+"#ff9fc4",
+"#f0625f",
+"#8a3a86",
+"#a12a5d"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "analogous",
+"baseHue": 359,
+"out": [
+"#f4a7ed",
+"#ff9fc4",
+"#ffa39a",
+"#8a3a86",
+"#a12a5d",
+"#a13233"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "analogous",
+"baseHue": 359,
+"out": [
+"#f4a7ed",
+"#ff9fc4",
+"#ffa39a",
+"#cb65c4",
+"#e95590",
+"#a13233",
+"#8a3a86",
+"#a12a5d"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "triadic",
+"baseHue": 0,
+"out": [
+"#f05b93"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "triadic",
+"baseHue": 0,
+"out": [
+"#f05b93",
+"#759d27",
+"#00a4ef"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "triadic",
+"baseHue": 0,
+"out": [
+"#ff9fc3",
+"#b0cb76",
+"#00a4ef",
+"#a22a5b",
+"#426300"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "triadic",
+"baseHue": 0,
+"out": [
+"#ff9fc3",
+"#b0cb76",
+"#10d0ff",
+"#a22a5b",
+"#426300",
+"#0068a2"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "triadic",
+"baseHue": 0,
+"out": [
+"#ff9fc3",
+"#b0cb76",
+"#10d0ff",
+"#ea558e",
+"#709821",
+"#0068a2",
+"#a22a5b",
+"#426300"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "triadic",
+"baseHue": 20,
+"out": [
+"#f35e6f"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "triadic",
+"baseHue": 20,
+"out": [
+"#f35e6f",
+"#44a446",
+"#009cfc"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "triadic",
+"baseHue": 20,
+"out": [
+"#ffa0a6",
+"#8fd189",
+"#009cfc",
+"#a32e3f",
+"#15681e"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "triadic",
+"baseHue": 20,
+"out": [
+"#ffa0a6",
+"#8fd189",
+"#64c9ff",
+"#a32e3f",
+"#15681e",
+"#0063ad"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "triadic",
+"baseHue": 20,
+"out": [
+"#ffa0a6",
+"#8fd189",
+"#64c9ff",
+"#ec586a",
+"#3e9e41",
+"#0063ad",
+"#a32e3f",
+"#15681e"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "triadic",
+"baseHue": 30,
+"out": [
+"#ef635d"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "triadic",
+"baseHue": 30,
+"out": [
+"#ef635d",
+"#12a657",
+"#0097fe"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "triadic",
+"baseHue": 30,
+"out": [
+"#ffa399",
+"#7dd395",
+"#0097fe",
+"#a03332",
+"#00692c"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "triadic",
+"baseHue": 30,
+"out": [
+"#ffa399",
+"#7dd395",
+"#80c5ff",
+"#a03332",
+"#00692c",
+"#005fae"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "triadic",
+"baseHue": 30,
+"out": [
+"#ffa399",
+"#7dd395",
+"#80c5ff",
+"#e95e58",
+"#00a152",
+"#005fae",
+"#a03332",
+"#00692c"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "triadic",
+"baseHue": 45,
+"out": [
+"#e56d45"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "triadic",
+"baseHue": 45,
+"out": [
+"#e56d45",
+"#00a972",
+"#578dfb"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "triadic",
+"baseHue": 45,
+"out": [
+"#ffa987",
+"#5ed6aa",
+"#578dfb",
+"#983c1f",
+"#006b42"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "triadic",
+"baseHue": 45,
+"out": [
+"#ffa987",
+"#5ed6aa",
+"#a5beff",
+"#983c1f",
+"#006b42",
+"#1d57ac"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "triadic",
+"baseHue": 45,
+"out": [
+"#ffa987",
+"#5ed6aa",
+"#a5beff",
+"#df6840",
+"#00a36d",
+"#1d57ac",
+"#983c1f",
+"#006b42"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "triadic",
+"baseHue": 90,
+"out": [
+"#ac8e0f"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "triadic",
+"baseHue": 90,
+"out": [
+"#ac8e0f",
+"#00aac6",
+"#d26ac8"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "triadic",
+"baseHue": 90,
+"out": [
+"#dcbe6b",
+"#00d6ea",
+"#d26ac8",
+"#6c5800",
+"#006c83"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "triadic",
+"baseHue": 90,
+"out": [
+"#dcbe6b",
+"#00d6ea",
+"#f6a7ec",
+"#6c5800",
+"#006c83",
+"#8b3984"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "triadic",
+"baseHue": 90,
+"out": [
+"#dcbe6b",
+"#00d6ea",
+"#f6a7ec",
+"#a68905",
+"#00a4c0",
+"#8b3984",
+"#6c5800",
+"#006c83"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "triadic",
+"baseHue": 137.5,
+"out": [
+"#4ca342"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "triadic",
+"baseHue": 137.5,
+"out": [
+"#4ca342",
+"#009dfb",
+"#f35d73"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "triadic",
+"baseHue": 137.5,
+"out": [
+"#93d086",
+"#5ccaff",
+"#f35d73",
+"#1d671a",
+"#0063ac"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "triadic",
+"baseHue": 137.5,
+"out": [
+"#93d086",
+"#5ccaff",
+"#ffa0aa",
+"#1d671a",
+"#0063ac",
+"#a32d43"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "triadic",
+"baseHue": 137.5,
+"out": [
+"#93d086",
+"#5ccaff",
+"#ffa0aa",
+"#469e3d",
+"#0098f5",
+"#a32d43",
+"#1d671a",
+"#0063ac"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "triadic",
+"baseHue": 200,
+"out": [
+"#00aab4"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "triadic",
+"baseHue": 200,
+"out": [
+"#00aab4",
+"#c072d7",
+"#bb8717"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "triadic",
+"baseHue": 200,
+"out": [
+"#00d7dc",
+"#e8acf8",
+"#bb8717",
+"#006c75",
+"#7d4090"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "triadic",
+"baseHue": 200,
+"out": [
+"#00d7dc",
+"#e8acf8",
+"#e8b96d",
+"#006c75",
+"#7d4090",
+"#785300"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "triadic",
+"baseHue": 200,
+"out": [
+"#00d7dc",
+"#e8acf8",
+"#e8b96d",
+"#00a5af",
+"#bb6cd2",
+"#785300",
+"#006c75",
+"#7d4090"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "triadic",
+"baseHue": 240,
+"out": [
+"#00a4ef"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "triadic",
+"baseHue": 240,
+"out": [
+"#00a4ef",
+"#f05b93",
+"#759d27"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "triadic",
+"baseHue": 240,
+"out": [
+"#10d0ff",
+"#ff9fc3",
+"#759d27",
+"#0068a2",
+"#a22a5b"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "triadic",
+"baseHue": 240,
+"out": [
+"#10d0ff",
+"#ff9fc3",
+"#b0cb76",
+"#0068a2",
+"#a22a5b",
+"#426300"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "triadic",
+"baseHue": 240,
+"out": [
+"#10d0ff",
+"#ff9fc3",
+"#b0cb76",
+"#009fe9",
+"#ea558e",
+"#426300",
+"#0068a2",
+"#a22a5b"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "triadic",
+"baseHue": 300,
+"out": [
+"#8f82f0"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "triadic",
+"baseHue": 300,
+"out": [
+"#8f82f0",
+"#d6792f",
+"#00aa8f"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "triadic",
+"baseHue": 300,
+"out": [
+"#c5b6ff",
+"#feaf79",
+"#00aa8f",
+"#564ea3",
+"#8d4709"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "triadic",
+"baseHue": 300,
+"out": [
+"#c5b6ff",
+"#feaf79",
+"#38d7bf",
+"#564ea3",
+"#8d4709",
+"#006c58"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "triadic",
+"baseHue": 300,
+"out": [
+"#c5b6ff",
+"#feaf79",
+"#38d7bf",
+"#8a7dea",
+"#d0742a",
+"#006c58",
+"#564ea3",
+"#8d4709"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "triadic",
+"baseHue": 359,
+"out": [
+"#f05b95"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "triadic",
+"baseHue": 359,
+"out": [
+"#f05b95",
+"#779d26",
+"#00a4ee"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "triadic",
+"baseHue": 359,
+"out": [
+"#ff9fc4",
+"#b2cb75",
+"#00a4ee",
+"#a12a5d",
+"#446300"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "triadic",
+"baseHue": 359,
+"out": [
+"#ff9fc4",
+"#b2cb75",
+"#04d1ff",
+"#a12a5d",
+"#446300",
+"#0068a2"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "triadic",
+"baseHue": 359,
+"out": [
+"#ff9fc4",
+"#b2cb75",
+"#04d1ff",
+"#e95590",
+"#72971f",
+"#0068a2",
+"#a12a5d",
+"#446300"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "split-complementary",
+"baseHue": 0,
+"out": [
+"#f05b93"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "split-complementary",
+"baseHue": 0,
+"out": [
+"#f05b93",
+"#12a657",
+"#00aac6"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "split-complementary",
+"baseHue": 0,
+"out": [
+"#ff9fc3",
+"#7dd395",
+"#00aac6",
+"#a22a5b",
+"#00692c"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "split-complementary",
+"baseHue": 0,
+"out": [
+"#ff9fc3",
+"#7dd395",
+"#00d6ea",
+"#a22a5b",
+"#00692c",
+"#006c83"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "split-complementary",
+"baseHue": 0,
+"out": [
+"#ff9fc3",
+"#7dd395",
+"#00d6ea",
+"#ea558e",
+"#00a152",
+"#006c83",
+"#a22a5b",
+"#00692c"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "split-complementary",
+"baseHue": 20,
+"out": [
+"#f35e6f"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "split-complementary",
+"baseHue": 20,
+"out": [
+"#f35e6f",
+"#00a97c",
+"#00a7e3"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "split-complementary",
+"baseHue": 20,
+"out": [
+"#ffa0a6",
+"#53d6b1",
+"#00a7e3",
+"#a32e3f",
+"#006c49"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "split-complementary",
+"baseHue": 20,
+"out": [
+"#ffa0a6",
+"#53d6b1",
+"#00d3ff",
+"#a32e3f",
+"#006c49",
+"#006a9a"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "split-complementary",
+"baseHue": 20,
+"out": [
+"#ffa0a6",
+"#53d6b1",
+"#00d3ff",
+"#ec586a",
+"#00a477",
+"#006a9a",
+"#a32e3f",
+"#006c49"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "split-complementary",
+"baseHue": 30,
+"out": [
+"#ef635d"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "split-complementary",
+"baseHue": 30,
+"out": [
+"#ef635d",
+"#00aa8f",
+"#00a4ef"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "split-complementary",
+"baseHue": 30,
+"out": [
+"#ffa399",
+"#38d7bf",
+"#00a4ef",
+"#a03332",
+"#006c58"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "split-complementary",
+"baseHue": 30,
+"out": [
+"#ffa399",
+"#38d7bf",
+"#10d0ff",
+"#a03332",
+"#006c58",
+"#0068a2"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "split-complementary",
+"baseHue": 30,
+"out": [
+"#ffa399",
+"#38d7bf",
+"#10d0ff",
+"#e95e58",
+"#00a48a",
+"#0068a2",
+"#a03332",
+"#006c58"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "split-complementary",
+"baseHue": 45,
+"out": [
+"#e56d45"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "split-complementary",
+"baseHue": 45,
+"out": [
+"#e56d45",
+"#00aaab",
+"#009efa"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "split-complementary",
+"baseHue": 45,
+"out": [
+"#ffa987",
+"#00d7d5",
+"#009efa",
+"#983c1f",
+"#006c6e"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "split-complementary",
+"baseHue": 45,
+"out": [
+"#ffa987",
+"#00d7d5",
+"#54cbff",
+"#983c1f",
+"#006c6e",
+"#0064ab"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "split-complementary",
+"baseHue": 45,
+"out": [
+"#ffa987",
+"#00d7d5",
+"#54cbff",
+"#df6840",
+"#00a5a6",
+"#0064ab",
+"#983c1f",
+"#006c6e"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "split-complementary",
+"baseHue": 90,
+"out": [
+"#ac8e0f"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "split-complementary",
+"baseHue": 90,
+"out": [
+"#ac8e0f",
+"#00a4ef",
+"#8f82f0"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "split-complementary",
+"baseHue": 90,
+"out": [
+"#dcbe6b",
+"#10d0ff",
+"#8f82f0",
+"#6c5800",
+"#0068a2"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "split-complementary",
+"baseHue": 90,
+"out": [
+"#dcbe6b",
+"#10d0ff",
+"#c5b6ff",
+"#6c5800",
+"#0068a2",
+"#564ea3"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "split-complementary",
+"baseHue": 90,
+"out": [
+"#dcbe6b",
+"#10d0ff",
+"#c5b6ff",
+"#a68905",
+"#009fe9",
+"#564ea3",
+"#6c5800",
+"#0068a2"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "split-complementary",
+"baseHue": 137.5,
+"out": [
+"#4ca342"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "split-complementary",
+"baseHue": 137.5,
+"out": [
+"#4ca342",
+"#638cf9",
+"#e85faa"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "split-complementary",
+"baseHue": 137.5,
+"out": [
+"#93d086",
+"#aabcff",
+"#e85faa",
+"#1d671a",
+"#2c56ab"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "split-complementary",
+"baseHue": 137.5,
+"out": [
+"#93d086",
+"#aabcff",
+"#ffa1d4",
+"#1d671a",
+"#2c56ab",
+"#9b2e6d"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "split-complementary",
+"baseHue": 137.5,
+"out": [
+"#93d086",
+"#aabcff",
+"#ffa1d4",
+"#469e3d",
+"#5c86f3",
+"#9b2e6d",
+"#1d671a",
+"#2c56ab"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "split-complementary",
+"baseHue": 200,
+"out": [
+"#00aab4"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "split-complementary",
+"baseHue": 200,
+"out": [
+"#00aab4",
+"#ea5ea5",
+"#e1713e"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "split-complementary",
+"baseHue": 200,
+"out": [
+"#00d7dc",
+"#ffa1d1",
+"#e1713e",
+"#006c75",
+"#9d2d69"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "split-complementary",
+"baseHue": 200,
+"out": [
+"#00d7dc",
+"#ffa1d1",
+"#ffab82",
+"#006c75",
+"#9d2d69",
+"#954018"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "split-complementary",
+"baseHue": 200,
+"out": [
+"#00d7dc",
+"#ffa1d1",
+"#ffab82",
+"#00a5af",
+"#e458a0",
+"#954018",
+"#006c75",
+"#9d2d69"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "split-complementary",
+"baseHue": 240,
+"out": [
+"#00a4ef"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "split-complementary",
+"baseHue": 240,
+"out": [
+"#00a4ef",
+"#ef635d",
+"#ac8e0f"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "split-complementary",
+"baseHue": 240,
+"out": [
+"#10d0ff",
+"#ffa399",
+"#ac8e0f",
+"#0068a2",
+"#a03332"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "split-complementary",
+"baseHue": 240,
+"out": [
+"#10d0ff",
+"#ffa399",
+"#dcbe6b",
+"#0068a2",
+"#a03332",
+"#6c5800"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "split-complementary",
+"baseHue": 240,
+"out": [
+"#10d0ff",
+"#ffa399",
+"#dcbe6b",
+"#009fe9",
+"#e95e58",
+"#6c5800",
+"#0068a2",
+"#a03332"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "split-complementary",
+"baseHue": 300,
+"out": [
+"#8f82f0"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "split-complementary",
+"baseHue": 300,
+"out": [
+"#8f82f0",
+"#ac8e0f",
+"#12a657"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "split-complementary",
+"baseHue": 300,
+"out": [
+"#c5b6ff",
+"#dcbe6b",
+"#12a657",
+"#564ea3",
+"#6c5800"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "split-complementary",
+"baseHue": 300,
+"out": [
+"#c5b6ff",
+"#dcbe6b",
+"#7dd395",
+"#564ea3",
+"#6c5800",
+"#00692c"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "split-complementary",
+"baseHue": 300,
+"out": [
+"#c5b6ff",
+"#dcbe6b",
+"#7dd395",
+"#8a7dea",
+"#a68905",
+"#00692c",
+"#564ea3",
+"#6c5800"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "split-complementary",
+"baseHue": 359,
+"out": [
+"#f05b95"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "split-complementary",
+"baseHue": 359,
+"out": [
+"#f05b95",
+"#1ba655",
+"#00aac4"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "split-complementary",
+"baseHue": 359,
+"out": [
+"#ff9fc4",
+"#7fd394",
+"#00aac4",
+"#a12a5d",
+"#00692b"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "split-complementary",
+"baseHue": 359,
+"out": [
+"#ff9fc4",
+"#7fd394",
+"#00d6e8",
+"#a12a5d",
+"#00692b",
+"#006c81"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "split-complementary",
+"baseHue": 359,
+"out": [
+"#ff9fc4",
+"#7fd394",
+"#00d6e8",
+"#e95590",
+"#0ea050",
+"#006c81",
+"#a12a5d",
+"#00692b"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "tetradic",
+"baseHue": 0,
+"out": [
+"#f05b93"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "tetradic",
+"baseHue": 0,
+"out": [
+"#f05b93",
+"#d6792f",
+"#00aa8f"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "tetradic",
+"baseHue": 0,
+"out": [
+"#ff9fc3",
+"#d6792f",
+"#00aa8f",
+"#00a4ef",
+"#a22a5b"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "tetradic",
+"baseHue": 0,
+"out": [
+"#ff9fc3",
+"#feaf79",
+"#00aa8f",
+"#00a4ef",
+"#a22a5b",
+"#8d4709"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "tetradic",
+"baseHue": 0,
+"out": [
+"#ff9fc3",
+"#feaf79",
+"#38d7bf",
+"#10d0ff",
+"#a22a5b",
+"#8d4709",
+"#006c58",
+"#0068a2"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "tetradic",
+"baseHue": 20,
+"out": [
+"#f35e6f"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "tetradic",
+"baseHue": 20,
+"out": [
+"#f35e6f",
+"#bb8717",
+"#00aab4"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "tetradic",
+"baseHue": 20,
+"out": [
+"#ffa0a6",
+"#bb8717",
+"#00aab4",
+"#009cfc",
+"#a32e3f"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "tetradic",
+"baseHue": 20,
+"out": [
+"#ffa0a6",
+"#e8b96d",
+"#00aab4",
+"#009cfc",
+"#a32e3f",
+"#785300"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "tetradic",
+"baseHue": 20,
+"out": [
+"#ffa0a6",
+"#e8b96d",
+"#00d7dc",
+"#64c9ff",
+"#a32e3f",
+"#785300",
+"#006c75",
+"#0063ad"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "tetradic",
+"baseHue": 30,
+"out": [
+"#ef635d"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "tetradic",
+"baseHue": 30,
+"out": [
+"#ef635d",
+"#ac8e0f",
+"#00aac6"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "tetradic",
+"baseHue": 30,
+"out": [
+"#ffa399",
+"#ac8e0f",
+"#00aac6",
+"#0097fe",
+"#a03332"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "tetradic",
+"baseHue": 30,
+"out": [
+"#ffa399",
+"#dcbe6b",
+"#00aac6",
+"#0097fe",
+"#a03332",
+"#6c5800"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "tetradic",
+"baseHue": 30,
+"out": [
+"#ffa399",
+"#dcbe6b",
+"#00d6ea",
+"#80c5ff",
+"#a03332",
+"#6c5800",
+"#006c83",
+"#005fae"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "tetradic",
+"baseHue": 45,
+"out": [
+"#e56d45"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "tetradic",
+"baseHue": 45,
+"out": [
+"#e56d45",
+"#929615",
+"#00a8dd"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "tetradic",
+"baseHue": 45,
+"out": [
+"#ffa987",
+"#929615",
+"#00a8dd",
+"#578dfb",
+"#983c1f"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "tetradic",
+"baseHue": 45,
+"out": [
+"#ffa987",
+"#c7c56d",
+"#00a8dd",
+"#578dfb",
+"#983c1f",
+"#595e00"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "tetradic",
+"baseHue": 45,
+"out": [
+"#ffa987",
+"#c7c56d",
+"#00d4fb",
+"#a5beff",
+"#983c1f",
+"#595e00",
+"#006b94",
+"#1d57ac"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "tetradic",
+"baseHue": 90,
+"out": [
+"#ac8e0f"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "tetradic",
+"baseHue": 90,
+"out": [
+"#ac8e0f",
+"#12a657",
+"#0097fe"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "tetradic",
+"baseHue": 90,
+"out": [
+"#dcbe6b",
+"#12a657",
+"#0097fe",
+"#d26ac8",
+"#6c5800"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "tetradic",
+"baseHue": 90,
+"out": [
+"#dcbe6b",
+"#7dd395",
+"#0097fe",
+"#d26ac8",
+"#6c5800",
+"#00692c"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "tetradic",
+"baseHue": 90,
+"out": [
+"#dcbe6b",
+"#7dd395",
+"#80c5ff",
+"#f6a7ec",
+"#6c5800",
+"#00692c",
+"#005fae",
+"#8b3984"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "tetradic",
+"baseHue": 137.5,
+"out": [
+"#4ca342"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "tetradic",
+"baseHue": 137.5,
+"out": [
+"#4ca342",
+"#00aab0",
+"#bb74db"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "tetradic",
+"baseHue": 137.5,
+"out": [
+"#93d086",
+"#00aab0",
+"#bb74db",
+"#f35d73",
+"#1d671a"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "tetradic",
+"baseHue": 137.5,
+"out": [
+"#93d086",
+"#00d7d9",
+"#bb74db",
+"#f35d73",
+"#1d671a",
+"#006c72"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "tetradic",
+"baseHue": 137.5,
+"out": [
+"#93d086",
+"#00d7d9",
+"#e4adfa",
+"#ffa0aa",
+"#1d671a",
+"#006c72",
+"#7a4293",
+"#a32d43"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "tetradic",
+"baseHue": 200,
+"out": [
+"#00aab4"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "tetradic",
+"baseHue": 200,
+"out": [
+"#00aab4",
+"#009cfc",
+"#f35e6f"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "tetradic",
+"baseHue": 200,
+"out": [
+"#00d7dc",
+"#009cfc",
+"#f35e6f",
+"#bb8717",
+"#006c75"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "tetradic",
+"baseHue": 200,
+"out": [
+"#00d7dc",
+"#64c9ff",
+"#f35e6f",
+"#bb8717",
+"#006c75",
+"#0063ad"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "tetradic",
+"baseHue": 200,
+"out": [
+"#00d7dc",
+"#64c9ff",
+"#ffa0a6",
+"#e8b96d",
+"#006c75",
+"#0063ad",
+"#a32e3f",
+"#785300"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "tetradic",
+"baseHue": 240,
+"out": [
+"#00a4ef"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "tetradic",
+"baseHue": 240,
+"out": [
+"#00a4ef",
+"#8f82f0",
+"#d6792f"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "tetradic",
+"baseHue": 240,
+"out": [
+"#10d0ff",
+"#8f82f0",
+"#d6792f",
+"#759d27",
+"#0068a2"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "tetradic",
+"baseHue": 240,
+"out": [
+"#10d0ff",
+"#c5b6ff",
+"#d6792f",
+"#759d27",
+"#0068a2",
+"#564ea3"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "tetradic",
+"baseHue": 240,
+"out": [
+"#10d0ff",
+"#c5b6ff",
+"#feaf79",
+"#b0cb76",
+"#0068a2",
+"#564ea3",
+"#8d4709",
+"#426300"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "tetradic",
+"baseHue": 300,
+"out": [
+"#8f82f0"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "tetradic",
+"baseHue": 300,
+"out": [
+"#8f82f0",
+"#f05b93",
+"#759d27"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "tetradic",
+"baseHue": 300,
+"out": [
+"#c5b6ff",
+"#f05b93",
+"#759d27",
+"#00aa8f",
+"#564ea3"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "tetradic",
+"baseHue": 300,
+"out": [
+"#c5b6ff",
+"#ff9fc3",
+"#759d27",
+"#00aa8f",
+"#564ea3",
+"#a22a5b"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "tetradic",
+"baseHue": 300,
+"out": [
+"#c5b6ff",
+"#ff9fc3",
+"#b0cb76",
+"#38d7bf",
+"#564ea3",
+"#a22a5b",
+"#426300",
+"#006c58"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "tetradic",
+"baseHue": 359,
+"out": [
+"#f05b95"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "tetradic",
+"baseHue": 359,
+"out": [
+"#f05b95",
+"#d77831",
+"#00aa8d"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "tetradic",
+"baseHue": 359,
+"out": [
+"#ff9fc4",
+"#d77831",
+"#00aa8d",
+"#00a4ee",
+"#a12a5d"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "tetradic",
+"baseHue": 359,
+"out": [
+"#ff9fc4",
+"#ffaf7a",
+"#00aa8d",
+"#00a4ee",
+"#a12a5d",
+"#8d460a"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "tetradic",
+"baseHue": 359,
+"out": [
+"#ff9fc4",
+"#ffaf7a",
+"#3bd7be",
+"#04d1ff",
+"#a12a5d",
+"#8d460a",
+"#006c57",
+"#0068a2"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "monochromatic",
+"baseHue": 0,
+"out": [
+"#f05b93"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "monochromatic",
+"baseHue": 0,
+"out": [
+"#ffcce4",
+"#e44f89",
+"#611a36"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "monochromatic",
+"baseHue": 0,
+"out": [
+"#ffcce4",
+"#ff8cb5",
+"#e44f89",
+"#a62b5e",
+"#611a36"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "monochromatic",
+"baseHue": 0,
+"out": [
+"#ffcce4",
+"#ff99be",
+"#f9639a",
+"#cf3b77",
+"#982855",
+"#611a36"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "monochromatic",
+"baseHue": 0,
+"out": [
+"#ffcce4",
+"#ffa8c9",
+"#ff83af",
+"#f35d95",
+"#d5417c",
+"#b02e64",
+"#87244c",
+"#611a36"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "monochromatic",
+"baseHue": 20,
+"out": [
+"#f35e6f"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "monochromatic",
+"baseHue": 20,
+"out": [
+"#ffcdcf",
+"#e65365",
+"#621b25"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "monochromatic",
+"baseHue": 20,
+"out": [
+"#ffcdcf",
+"#ff8e96",
+"#e65365",
+"#a72f41",
+"#621b25"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "monochromatic",
+"baseHue": 20,
+"out": [
+"#ffcdcf",
+"#ff9ba1",
+"#fb6676",
+"#d13f54",
+"#992b3b",
+"#621b25"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "monochromatic",
+"baseHue": 20,
+"out": [
+"#ffcdcf",
+"#ffa9ae",
+"#ff848e",
+"#f56071",
+"#d74559",
+"#b23245",
+"#892635",
+"#621b25"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "monochromatic",
+"baseHue": 30,
+"out": [
+"#ef635d"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "monochromatic",
+"baseHue": 30,
+"out": [
+"#ffcec5",
+"#e35854",
+"#601e1d"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "monochromatic",
+"baseHue": 30,
+"out": [
+"#ffcec5",
+"#ff9187",
+"#e35854",
+"#a53433",
+"#601e1d"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "monochromatic",
+"baseHue": 30,
+"out": [
+"#ffcec5",
+"#ff9d93",
+"#f86b64",
+"#ce4544",
+"#96302f",
+"#601e1d"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "monochromatic",
+"baseHue": 30,
+"out": [
+"#ffcec5",
+"#ffaba1",
+"#ff887f",
+"#f2655f",
+"#d44b48",
+"#af3737",
+"#862b29",
+"#601e1d"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "monochromatic",
+"baseHue": 45,
+"out": [
+"#e56d45"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "monochromatic",
+"baseHue": 45,
+"out": [
+"#ffd1b8",
+"#d9633c",
+"#5b2411"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "monochromatic",
+"baseHue": 45,
+"out": [
+"#ffd1b8",
+"#ff9873",
+"#d9633c",
+"#9c3e1f",
+"#5b2411"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "monochromatic",
+"baseHue": 45,
+"out": [
+"#ffd1b8",
+"#ffa381",
+"#ee754c",
+"#c4512c",
+"#8f391c",
+"#5b2411"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "monochromatic",
+"baseHue": 45,
+"out": [
+"#ffd1b8",
+"#ffb090",
+"#fd8f6a",
+"#e87047",
+"#ca5630",
+"#a64221",
+"#803219",
+"#5b2411"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "monochromatic",
+"baseHue": 90,
+"out": [
+"#ac8e0f"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "monochromatic",
+"baseHue": 90,
+"out": [
+"#f9e0a5",
+"#a08400",
+"#413300"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "monochromatic",
+"baseHue": 90,
+"out": [
+"#f9e0a5",
+"#cfb153",
+"#a08400",
+"#6f5a00",
+"#413300"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "monochromatic",
+"baseHue": 90,
+"out": [
+"#f9e0a5",
+"#d8ba63",
+"#b4951a",
+"#8d7300",
+"#665200",
+"#413300"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "monochromatic",
+"baseHue": 90,
+"out": [
+"#f9e0a5",
+"#e1c576",
+"#c9aa47",
+"#ae9013",
+"#927700",
+"#766000",
+"#5b4900",
+"#413300"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "monochromatic",
+"baseHue": 137.5,
+"out": [
+"#4ca342"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "monochromatic",
+"baseHue": 137.5,
+"out": [
+"#c3eeb8",
+"#409838",
+"#123d0f"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "monochromatic",
+"baseHue": 137.5,
+"out": [
+"#c3eeb8",
+"#7fc472",
+"#409838",
+"#1e6a1b",
+"#123d0f"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "monochromatic",
+"baseHue": 137.5,
+"out": [
+"#c3eeb8",
+"#8dcc80",
+"#54ab49",
+"#2b8626",
+"#1c6119",
+"#123d0f"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "monochromatic",
+"baseHue": 137.5,
+"out": [
+"#c3eeb8",
+"#9cd690",
+"#75be68",
+"#4ea544",
+"#318b2b",
+"#20711d",
+"#195616",
+"#123d0f"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "monochromatic",
+"baseHue": 200,
+"out": [
+"#00aab4"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "monochromatic",
+"baseHue": 200,
+"out": [
+"#88f4f6",
+"#009faa",
+"#004045"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "monochromatic",
+"baseHue": 200,
+"out": [
+"#88f4f6",
+"#00cbd2",
+"#009faa",
+"#006f78",
+"#004045"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "monochromatic",
+"baseHue": 200,
+"out": [
+"#88f4f6",
+"#00d3d9",
+"#00b2bc",
+"#008d97",
+"#00666e",
+"#004045"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "monochromatic",
+"baseHue": 200,
+"out": [
+"#88f4f6",
+"#22dce1",
+"#00c5cc",
+"#00adb7",
+"#00929d",
+"#007680",
+"#005b62",
+"#004045"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "monochromatic",
+"baseHue": 240,
+"out": [
+"#00a4ef"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "monochromatic",
+"baseHue": 240,
+"out": [
+"#95eeff",
+"#0099e3",
+"#003e61"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "monochromatic",
+"baseHue": 240,
+"out": [
+"#95eeff",
+"#00c4ff",
+"#0099e3",
+"#006ba7",
+"#003e61"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "monochromatic",
+"baseHue": 240,
+"out": [
+"#95eeff",
+"#00ccff",
+"#00abf7",
+"#0087d0",
+"#006298",
+"#003e61"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "monochromatic",
+"baseHue": 240,
+"out": [
+"#95eeff",
+"#41d6ff",
+"#00beff",
+"#00a6f1",
+"#008cd5",
+"#0072b1",
+"#005788",
+"#003e61"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "monochromatic",
+"baseHue": 300,
+"out": [
+"#8f82f0"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "monochromatic",
+"baseHue": 300,
+"out": [
+"#e7daff",
+"#8478e4",
+"#332e61"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "monochromatic",
+"baseHue": 300,
+"out": [
+"#e7daff",
+"#b6a7ff",
+"#8478e4",
+"#5850a7",
+"#332e61"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "monochromatic",
+"baseHue": 300,
+"out": [
+"#e7daff",
+"#c0b1ff",
+"#9789f8",
+"#7167d1",
+"#514999",
+"#332e61"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "monochromatic",
+"baseHue": 300,
+"out": [
+"#e7daff",
+"#ccbdff",
+"#afa0ff",
+"#9284f2",
+"#766cd6",
+"#5e55b2",
+"#484189",
+"#332e61"
+]
+},
+{
+"type": "regular",
+"n": 1,
+"mode": "monochromatic",
+"baseHue": 359,
+"out": [
+"#f05b95"
+]
+},
+{
+"type": "regular",
+"n": 3,
+"mode": "monochromatic",
+"baseHue": 359,
+"out": [
+"#ffcce5",
+"#e3508a",
+"#611a37"
+]
+},
+{
+"type": "regular",
+"n": 5,
+"mode": "monochromatic",
+"baseHue": 359,
+"out": [
+"#ffcce5",
+"#ff8cb7",
+"#e3508a",
+"#a62c5f",
+"#611a37"
+]
+},
+{
+"type": "regular",
+"n": 6,
+"mode": "monochromatic",
+"baseHue": 359,
+"out": [
+"#ffcce5",
+"#ff99c0",
+"#f8639c",
+"#cf3b79",
+"#972857",
+"#611a37"
+]
+},
+{
+"type": "regular",
+"n": 8,
+"mode": "monochromatic",
+"baseHue": 359,
+"out": [
+"#ffcce5",
+"#ffa8ca",
+"#ff83b0",
+"#f25e97",
+"#d5417e",
+"#b02e65",
+"#87244d",
+"#611a37"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "single-hue",
+"baseHue": 0,
+"out": [
+"#d86f92"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "single-hue",
+"baseHue": 0,
+"out": [
+"#ffe0e8",
+"#d17895",
+"#980049"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "single-hue",
+"baseHue": 0,
+"out": [
+"#ffe0e8",
+"#eaacbe",
+"#d17895",
+"#b6416e",
+"#980049"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "single-hue",
+"baseHue": 0,
+"out": [
+"#ffe0e8",
+"#f5c6d3",
+"#eaacbe",
+"#de92a9",
+"#d17895",
+"#c45e81",
+"#b6416e",
+"#a71e5b",
+"#980049"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "single-hue",
+"baseHue": 20,
+"out": [
+"#db7078"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "single-hue",
+"baseHue": 20,
+"out": [
+"#ffe1e1",
+"#d4797e",
+"#990029"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "single-hue",
+"baseHue": 20,
+"out": [
+"#ffe1e1",
+"#ecadae",
+"#d4797e",
+"#b84451",
+"#990029"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "single-hue",
+"baseHue": 20,
+"out": [
+"#ffe1e1",
+"#f7c6c7",
+"#ecadae",
+"#e19396",
+"#d4797e",
+"#c65f67",
+"#b84451",
+"#a9233c",
+"#990029"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "single-hue",
+"baseHue": 30,
+"out": [
+"#d9736b"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "single-hue",
+"baseHue": 30,
+"out": [
+"#ffe1dd",
+"#d27b73",
+"#950019"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "single-hue",
+"baseHue": 30,
+"out": [
+"#ffe1dd",
+"#ecaea7",
+"#d27b73",
+"#b54844",
+"#950019"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "single-hue",
+"baseHue": 30,
+"out": [
+"#ffe1dd",
+"#f7c7c1",
+"#ecaea7",
+"#df948d",
+"#d27b73",
+"#c4625b",
+"#b54844",
+"#a62b2d",
+"#950019"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "single-hue",
+"baseHue": 45,
+"out": [
+"#d2795a"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "single-hue",
+"baseHue": 45,
+"out": [
+"#ffe2d8",
+"#cd8065",
+"#8b1b00"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "single-hue",
+"baseHue": 45,
+"out": [
+"#ffe2d8",
+"#e8b09d",
+"#cd8065",
+"#ae5031",
+"#8b1b00"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "single-hue",
+"baseHue": 45,
+"out": [
+"#ffe2d8",
+"#f4c9ba",
+"#e8b09d",
+"#db9881",
+"#cd8065",
+"#be684b",
+"#ae5031",
+"#9d3717",
+"#8b1b00"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "single-hue",
+"baseHue": 90,
+"out": [
+"#a88e3f"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "single-hue",
+"baseHue": 90,
+"out": [
+"#f2e7d1",
+"#a8914f",
+"#594500"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "single-hue",
+"baseHue": 90,
+"out": [
+"#f2e7d1",
+"#cebb8f",
+"#a8914f",
+"#816a05",
+"#594500"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "single-hue",
+"baseHue": 90,
+"out": [
+"#f2e7d1",
+"#e0d1b0",
+"#cebb8f",
+"#bba66f",
+"#a8914f",
+"#957d2f",
+"#816a05",
+"#6c5700",
+"#594500"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "single-hue",
+"baseHue": 137.5,
+"out": [
+"#649f59"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "single-hue",
+"baseHue": 137.5,
+"out": [
+"#ddedd8",
+"#6f9f65",
+"#005500"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "single-hue",
+"baseHue": 137.5,
+"out": [
+"#ddedd8",
+"#a6c69d",
+"#6f9f65",
+"#357a2e",
+"#005500"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "single-hue",
+"baseHue": 137.5,
+"out": [
+"#ddedd8",
+"#c1d9ba",
+"#a6c69d",
+"#8ab280",
+"#6f9f65",
+"#538d49",
+"#357a2e",
+"#0c6810",
+"#005500"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "single-hue",
+"baseHue": 200,
+"out": [
+"#00a5aa"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "single-hue",
+"baseHue": 200,
+"out": [
+"#ccefef",
+"#00a5a9",
+"#005a68"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "single-hue",
+"baseHue": 200,
+"out": [
+"#ccefef",
+"#7ccacc",
+"#00a5a9",
+"#008088",
+"#005a68"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "single-hue",
+"baseHue": 200,
+"out": [
+"#ccefef",
+"#a5dcdd",
+"#7ccacc",
+"#4bb7ba",
+"#00a5a9",
+"#009298",
+"#008088",
+"#006d77",
+"#005a68"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "single-hue",
+"baseHue": 240,
+"out": [
+"#009fd4"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "single-hue",
+"baseHue": 240,
+"out": [
+"#d1ecfc",
+"#009fcd",
+"#00589e"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "single-hue",
+"baseHue": 240,
+"out": [
+"#d1ecfc",
+"#86c5e4",
+"#009fcd",
+"#007bb5",
+"#00589e"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "single-hue",
+"baseHue": 240,
+"out": [
+"#d1ecfc",
+"#acd9f0",
+"#86c5e4",
+"#59b2d8",
+"#009fcd",
+"#008dc1",
+"#007bb5",
+"#0069a9",
+"#00589e"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "single-hue",
+"baseHue": 300,
+"out": [
+"#9386d5"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "single-hue",
+"baseHue": 300,
+"out": [
+"#ebe5fc",
+"#968acd",
+"#38399f"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "single-hue",
+"baseHue": 300,
+"out": [
+"#ebe5fc",
+"#c1b7e5",
+"#968acd",
+"#6b60b6",
+"#38399f"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "single-hue",
+"baseHue": 300,
+"out": [
+"#ebe5fc",
+"#d6cef0",
+"#c1b7e5",
+"#aca0d9",
+"#968acd",
+"#8175c2",
+"#6b60b6",
+"#534caa",
+"#38399f"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "single-hue",
+"baseHue": 359,
+"out": [
+"#d86f94"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "single-hue",
+"baseHue": 359,
+"out": [
+"#ffe0e9",
+"#d17896",
+"#98004b"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "single-hue",
+"baseHue": 359,
+"out": [
+"#ffe0e9",
+"#e9acbe",
+"#d17896",
+"#b6426f",
+"#98004b"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "single-hue",
+"baseHue": 359,
+"out": [
+"#ffe0e9",
+"#f5c6d3",
+"#e9acbe",
+"#dd92aa",
+"#d17896",
+"#c45e82",
+"#b6426f",
+"#a71e5c",
+"#98004b"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "multi-hue",
+"baseHue": 0,
+"out": [
+"#d86f92"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "multi-hue",
+"baseHue": 0,
+"out": [
+"#ffe0e8",
+"#d37a79",
+"#872200"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "multi-hue",
+"baseHue": 0,
+"out": [
+"#ffe0e8",
+"#ecacb4",
+"#d37a79",
+"#b24c3a",
+"#872200"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "multi-hue",
+"baseHue": 0,
+"out": [
+"#ffe0e8",
+"#f6c6cf",
+"#ecacb4",
+"#e19397",
+"#d37a79",
+"#c4625a",
+"#b24c3a",
+"#9e3619",
+"#872200"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "multi-hue",
+"baseHue": 20,
+"out": [
+"#db7078"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "multi-hue",
+"baseHue": 20,
+"out": [
+"#ffe1e1",
+"#cd8065",
+"#733700"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "multi-hue",
+"baseHue": 20,
+"out": [
+"#ffe1e1",
+"#ebaea5",
+"#cd8065",
+"#a45822",
+"#733700"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "multi-hue",
+"baseHue": 20,
+"out": [
+"#ffe1e1",
+"#f7c7c4",
+"#ebaea5",
+"#dd9685",
+"#cd8065",
+"#ba6b45",
+"#a45822",
+"#8c4600",
+"#733700"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "multi-hue",
+"baseHue": 30,
+"out": [
+"#d9736b"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "multi-hue",
+"baseHue": 30,
+"out": [
+"#ffe1dd",
+"#c7835d",
+"#673f00"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "multi-hue",
+"baseHue": 30,
+"out": [
+"#ffe1dd",
+"#e9b09f",
+"#c7835d",
+"#9a5e17",
+"#673f00"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "multi-hue",
+"baseHue": 30,
+"out": [
+"#ffe1dd",
+"#f6c8be",
+"#e9b09f",
+"#d9997e",
+"#c7835d",
+"#b2703c",
+"#9a5e17",
+"#814d00",
+"#673f00"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "multi-hue",
+"baseHue": 45,
+"out": [
+"#d2795a"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "multi-hue",
+"baseHue": 45,
+"out": [
+"#ffe2d8",
+"#bb8954",
+"#524800"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "multi-hue",
+"baseHue": 45,
+"out": [
+"#ffe2d8",
+"#e3b397",
+"#bb8954",
+"#8a6609",
+"#524800"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "multi-hue",
+"baseHue": 45,
+"out": [
+"#ffe2d8",
+"#f2cab8",
+"#e3b397",
+"#d09d75",
+"#bb8954",
+"#a47733",
+"#8a6609",
+"#6e5600",
+"#524800"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "multi-hue",
+"baseHue": 90,
+"out": [
+"#a88e3f"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "multi-hue",
+"baseHue": 90,
+"out": [
+"#f2e7d1",
+"#8c9a55",
+"#005600"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "multi-hue",
+"baseHue": 90,
+"out": [
+"#f2e7d1",
+"#c4be90",
+"#8c9a55",
+"#4a7821",
+"#005600"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "multi-hue",
+"baseHue": 90,
+"out": [
+"#f2e7d1",
+"#dcd2b0",
+"#c4be90",
+"#a9ac71",
+"#8c9a55",
+"#6c893a",
+"#4a7821",
+"#1d6706",
+"#005600"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "multi-hue",
+"baseHue": 137.5,
+"out": [
+"#649f59"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "multi-hue",
+"baseHue": 137.5,
+"out": [
+"#ddedd8",
+"#49a37e",
+"#005a52"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "multi-hue",
+"baseHue": 137.5,
+"out": [
+"#ddedd8",
+"#9bc7a5",
+"#49a37e",
+"#007f63",
+"#005a52"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "multi-hue",
+"baseHue": 137.5,
+"out": [
+"#ddedd8",
+"#bddabd",
+"#9bc7a5",
+"#75b590",
+"#49a37e",
+"#00916f",
+"#007f63",
+"#006d5a",
+"#005a52"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "multi-hue",
+"baseHue": 200,
+"out": [
+"#00a5aa"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "multi-hue",
+"baseHue": 200,
+"out": [
+"#ccefef",
+"#00a2c2",
+"#0055a6"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "multi-hue",
+"baseHue": 200,
+"out": [
+"#ccefef",
+"#7bc9d5",
+"#00a2c2",
+"#007bb3",
+"#0055a6"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "multi-hue",
+"baseHue": 200,
+"out": [
+"#ccefef",
+"#a4dce1",
+"#7bc9d5",
+"#49b6ca",
+"#00a2c2",
+"#008fba",
+"#007bb3",
+"#0068ac",
+"#0055a6"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "multi-hue",
+"baseHue": 240,
+"out": [
+"#009fd4"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "multi-hue",
+"baseHue": 240,
+"out": [
+"#d1ecfc",
+"#5398d6",
+"#0041a6"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "multi-hue",
+"baseHue": 240,
+"out": [
+"#d1ecfc",
+"#90c3e8",
+"#5398d6",
+"#0f6dc1",
+"#0041a6"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "multi-hue",
+"baseHue": 240,
+"out": [
+"#d1ecfc",
+"#afd8f2",
+"#90c3e8",
+"#71aedf",
+"#5398d6",
+"#3583cc",
+"#0f6dc1",
+"#0057b4",
+"#0041a6"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "multi-hue",
+"baseHue": 300,
+"out": [
+"#9386d5"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "multi-hue",
+"baseHue": 300,
+"out": [
+"#ebe5fc",
+"#b880ba",
+"#93005a"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "multi-hue",
+"baseHue": 300,
+"out": [
+"#ebe5fc",
+"#ccb4df",
+"#b880ba",
+"#a7498d",
+"#93005a"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "multi-hue",
+"baseHue": 300,
+"out": [
+"#ebe5fc",
+"#dacdee",
+"#ccb4df",
+"#c19ace",
+"#b880ba",
+"#af66a5",
+"#a7498d",
+"#9e2774",
+"#93005a"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 1,
+"mode": "multi-hue",
+"baseHue": 359,
+"out": [
+"#d86f94"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 3,
+"mode": "multi-hue",
+"baseHue": 359,
+"out": [
+"#ffe0e9",
+"#d47a7a",
+"#882100"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 5,
+"mode": "multi-hue",
+"baseHue": 359,
+"out": [
+"#ffe0e9",
+"#ecacb4",
+"#d47a7a",
+"#b34b3b",
+"#882100"
+]
+},
+{
+"type": "ordered-sequential",
+"n": 9,
+"mode": "multi-hue",
+"baseHue": 359,
+"out": [
+"#ffe0e9",
+"#f6c6d0",
+"#ecacb4",
+"#e19398",
+"#d47a7a",
+"#c4625b",
+"#b34b3b",
+"#9e351a",
+"#882100"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 1,
+"mode": "two-hue",
+"baseHue": 0,
+"out": [
+"#f5eff1"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 3,
+"mode": "two-hue",
+"baseHue": 0,
+"out": [
+"#c54c79",
+"#f5eff1",
+"#008c76"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 5,
+"mode": "two-hue",
+"baseHue": 0,
+"out": [
+"#c54c79",
+"#e1a0b3",
+"#f5eff1",
+"#79bfb1",
+"#008c76"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 9,
+"mode": "two-hue",
+"baseHue": 0,
+"out": [
+"#c54c79",
+"#d47895",
+"#e1a0b3",
+"#ecc8d1",
+"#f5eff1",
+"#b9d7d0",
+"#79bfb1",
+"#21a693",
+"#008c76"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 11,
+"mode": "two-hue",
+"baseHue": 0,
+"out": [
+"#c54c79",
+"#d16f8f",
+"#dc90a7",
+"#e6b0bf",
+"#eecfd7",
+"#f5eff1",
+"#c5dcd7",
+"#93c9bd",
+"#5db5a5",
+"#00a08d",
+"#008c76"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 1,
+"mode": "two-hue",
+"baseHue": 20,
+"out": [
+"#f5efef"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 3,
+"mode": "two-hue",
+"baseHue": 20,
+"out": [
+"#c74f5b",
+"#f5efef",
+"#008c94"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 5,
+"mode": "two-hue",
+"baseHue": 20,
+"out": [
+"#c74f5b",
+"#e4a0a2",
+"#f5efef",
+"#71bfc1",
+"#008c94"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 9,
+"mode": "two-hue",
+"baseHue": 20,
+"out": [
+"#c74f5b",
+"#d7797e",
+"#e4a0a2",
+"#eec8c8",
+"#f5efef",
+"#b6d7d8",
+"#71bfc1",
+"#00a6aa",
+"#008c94"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 11,
+"mode": "two-hue",
+"baseHue": 20,
+"out": [
+"#c74f5b",
+"#d47177",
+"#df9193",
+"#e9b0b1",
+"#f0d0d0",
+"#f5efef",
+"#c3dcdc",
+"#8ec9ca",
+"#4eb5b7",
+"#00a0a6",
+"#008c94"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 1,
+"mode": "two-hue",
+"baseHue": 30,
+"out": [
+"#f5efef"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 3,
+"mode": "two-hue",
+"baseHue": 30,
+"out": [
+"#c4534d",
+"#f5efef",
+"#008ba2"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 5,
+"mode": "two-hue",
+"baseHue": 30,
+"out": [
+"#c4534d",
+"#e3a29a",
+"#f5efef",
+"#6fbec8",
+"#008ba2"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 9,
+"mode": "two-hue",
+"baseHue": 30,
+"out": [
+"#c4534d",
+"#d57b73",
+"#e3a29a",
+"#eec8c4",
+"#f5efef",
+"#b6d7db",
+"#6fbec8",
+"#00a5b5",
+"#008ba2"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 11,
+"mode": "two-hue",
+"baseHue": 30,
+"out": [
+"#c4534d",
+"#d2736b",
+"#de928a",
+"#e8b1ab",
+"#f0d0cc",
+"#f5efef",
+"#c3dcdf",
+"#8dc8d0",
+"#4bb4c0",
+"#00a0b1",
+"#008ba2"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 1,
+"mode": "two-hue",
+"baseHue": 45,
+"out": [
+"#f5f0ee"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 3,
+"mode": "two-hue",
+"baseHue": 45,
+"out": [
+"#bc5b3a",
+"#f5f0ee",
+"#008ab5"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 5,
+"mode": "two-hue",
+"baseHue": 45,
+"out": [
+"#bc5b3a",
+"#dfa490",
+"#f5f0ee",
+"#72bdd1",
+"#008ab5"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 9,
+"mode": "two-hue",
+"baseHue": 45,
+"out": [
+"#bc5b3a",
+"#cf8064",
+"#dfa490",
+"#eccabe",
+"#f5f0ee",
+"#b7d6e0",
+"#72bdd1",
+"#00a3c3",
+"#008ab5"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 11,
+"mode": "two-hue",
+"baseHue": 45,
+"out": [
+"#bc5b3a",
+"#cc785b",
+"#d9967e",
+"#e5b3a2",
+"#eed1c7",
+"#f5f0ee",
+"#c4dbe2",
+"#90c7d7",
+"#4fb2cc",
+"#009ec0",
+"#008ab5"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 1,
+"mode": "two-hue",
+"baseHue": 90,
+"out": [
+"#f2f0ed"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 3,
+"mode": "two-hue",
+"baseHue": 90,
+"out": [
+"#8d7512",
+"#f2f0ed",
+"#007cd0"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 5,
+"mode": "two-hue",
+"baseHue": 90,
+"out": [
+"#8d7512",
+"#c4b081",
+"#f2f0ed",
+"#96b4df",
+"#007cd0"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 9,
+"mode": "two-hue",
+"baseHue": 90,
+"out": [
+"#8d7512",
+"#aa924d",
+"#c4b081",
+"#dcd0b6",
+"#f2f0ed",
+"#c6d2e6",
+"#96b4df",
+"#5e97d8",
+"#007cd0"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 11,
+"mode": "two-hue",
+"baseHue": 90,
+"out": [
+"#8d7512",
+"#a48c42",
+"#baa46c",
+"#cebd96",
+"#e1d6c1",
+"#f2f0ed",
+"#cfd8e8",
+"#aac0e2",
+"#81a8dc",
+"#5092d6",
+"#007cd0"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 1,
+"mode": "two-hue",
+"baseHue": 137.5,
+"out": [
+"#eff1ee"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 3,
+"mode": "two-hue",
+"baseHue": 137.5,
+"out": [
+"#408637",
+"#eff1ee",
+"#9a60b3"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 5,
+"mode": "two-hue",
+"baseHue": 137.5,
+"out": [
+"#408637",
+"#99bb90",
+"#eff1ee",
+"#c6a8d1",
+"#9a60b3"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 9,
+"mode": "two-hue",
+"baseHue": 137.5,
+"out": [
+"#408637",
+"#6ea163",
+"#99bb90",
+"#c4d6be",
+"#eff1ee",
+"#dbccdf",
+"#c6a8d1",
+"#b084c2",
+"#9a60b3"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 11,
+"mode": "two-hue",
+"baseHue": 137.5,
+"out": [
+"#408637",
+"#659b5a",
+"#88b17e",
+"#aac6a2",
+"#ccdcc7",
+"#eff1ee",
+"#dfd4e2",
+"#ceb6d7",
+"#bd99cb",
+"#ac7cbf",
+"#9a60b3"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 1,
+"mode": "two-hue",
+"baseHue": 200,
+"out": [
+"#ecf2f2"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 3,
+"mode": "two-hue",
+"baseHue": 200,
+"out": [
+"#008c94",
+"#ecf2f2",
+"#c74f5b"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 5,
+"mode": "two-hue",
+"baseHue": 200,
+"out": [
+"#008c94",
+"#69c0c2",
+"#ecf2f2",
+"#e1a2a3",
+"#c74f5b"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 9,
+"mode": "two-hue",
+"baseHue": 200,
+"out": [
+"#008c94",
+"#00a6ab",
+"#69c0c2",
+"#aed9da",
+"#ecf2f2",
+"#e8caca",
+"#e1a2a3",
+"#d57a7e",
+"#c74f5b"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 11,
+"mode": "two-hue",
+"baseHue": 200,
+"out": [
+"#008c94",
+"#00a1a6",
+"#46b5b8",
+"#87cacb",
+"#bbdede",
+"#ecf2f2",
+"#ead2d2",
+"#e4b2b2",
+"#dd9294",
+"#d37177",
+"#c74f5b"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 1,
+"mode": "two-hue",
+"baseHue": 240,
+"out": [
+"#edf1f4"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 3,
+"mode": "two-hue",
+"baseHue": 240,
+"out": [
+"#0087c3",
+"#edf1f4",
+"#b06429"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 5,
+"mode": "two-hue",
+"baseHue": 240,
+"out": [
+"#0087c3",
+"#74bbdc",
+"#edf1f4",
+"#d6a98b",
+"#b06429"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 9,
+"mode": "two-hue",
+"baseHue": 240,
+"out": [
+"#0087c3",
+"#00a1d0",
+"#74bbdc",
+"#b4d6e8",
+"#edf1f4",
+"#e4cdbe",
+"#d6a98b",
+"#c5865a",
+"#b06429"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 11,
+"mode": "two-hue",
+"baseHue": 240,
+"out": [
+"#0087c3",
+"#009bcd",
+"#54b0d7",
+"#8fc6e1",
+"#c0dbea",
+"#edf1f4",
+"#e6d4c9",
+"#dcb79f",
+"#cf9b77",
+"#c17f50",
+"#b06429"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 1,
+"mode": "two-hue",
+"baseHue": 300,
+"out": [
+"#f1f0f4"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 3,
+"mode": "two-hue",
+"baseHue": 300,
+"out": [
+"#766bc4",
+"#f1f0f4",
+"#618123"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 5,
+"mode": "two-hue",
+"baseHue": 300,
+"out": [
+"#766bc4",
+"#b6abdd",
+"#f1f0f4",
+"#aab78a",
+"#618123"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 9,
+"mode": "two-hue",
+"baseHue": 300,
+"out": [
+"#766bc4",
+"#978bd0",
+"#b6abdd",
+"#d4cde8",
+"#f1f0f4",
+"#ced3be",
+"#aab78a",
+"#869c57",
+"#618123"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 11,
+"mode": "two-hue",
+"baseHue": 300,
+"out": [
+"#766bc4",
+"#9184ce",
+"#a99ed8",
+"#c2b9e1",
+"#d9d4eb",
+"#f1f0f4",
+"#d5d9c9",
+"#b8c39e",
+"#9cac76",
+"#7f974d",
+"#618123"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 1,
+"mode": "two-hue",
+"baseHue": 359,
+"out": [
+"#f5eff1"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 3,
+"mode": "two-hue",
+"baseHue": 359,
+"out": [
+"#c44d7a",
+"#f5eff1",
+"#008c74"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 5,
+"mode": "two-hue",
+"baseHue": 359,
+"out": [
+"#c44d7a",
+"#e1a0b4",
+"#f5eff1",
+"#7abfb0",
+"#008c74"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 9,
+"mode": "two-hue",
+"baseHue": 359,
+"out": [
+"#c44d7a",
+"#d47896",
+"#e1a0b4",
+"#ecc8d2",
+"#f5eff1",
+"#b9d7d0",
+"#7abfb0",
+"#24a692",
+"#008c74"
+]
+},
+{
+"type": "ordered-diverging",
+"n": 11,
+"mode": "two-hue",
+"baseHue": 359,
+"out": [
+"#c44d7a",
+"#d16f91",
+"#dc90a8",
+"#e6b0c0",
+"#eed0d8",
+"#f5eff1",
+"#c5dcd6",
+"#94c9bd",
+"#5eb5a4",
+"#00a08c",
+"#008c74"
+]
+}
+],
+"getPreset": [
+{
+"type": "regular",
+"name": "Tableau 10",
+"n": 1,
+"out": [
+"#1f77b4"
+]
+},
+{
+"type": "regular",
+"name": "Tableau 10",
+"n": 3,
+"out": [
+"#1f77b4",
+"#ff7f0e",
+"#2ca02c"
+]
+},
+{
+"type": "regular",
+"name": "Tableau 10",
+"n": 4,
+"out": [
+"#1f77b4",
+"#ff7f0e",
+"#2ca02c",
+"#d62728"
+]
+},
+{
+"type": "regular",
+"name": "Tableau 10",
+"n": 5,
+"out": [
+"#1f77b4",
+"#ff7f0e",
+"#2ca02c",
+"#d62728",
+"#9467bd"
+]
+},
+{
+"type": "regular",
+"name": "Tableau 10",
+"n": 9,
+"out": [
+"#1f77b4",
+"#ff7f0e",
+"#2ca02c",
+"#d62728",
+"#9467bd",
+"#8c564b",
+"#e377c2",
+"#7f7f7f",
+"#bcbd22"
+]
+},
+{
+"type": "regular",
+"name": "Tableau 10",
+"n": 12,
+"out": [
+"#1f77b4",
+"#ff7f0e",
+"#2ca02c",
+"#d62728",
+"#9467bd",
+"#8c564b",
+"#e377c2",
+"#7f7f7f",
+"#bcbd22",
+"#17becf",
+"#1f77b4",
+"#ff7f0e"
+]
+},
+{
+"type": "regular",
+"name": "Tableau 10",
+"n": 14,
+"out": [
+"#1f77b4",
+"#ff7f0e",
+"#2ca02c",
+"#d62728",
+"#9467bd",
+"#8c564b",
+"#e377c2",
+"#7f7f7f",
+"#bcbd22",
+"#17becf",
+"#1f77b4",
+"#ff7f0e",
+"#2ca02c",
+"#d62728"
+]
+},
+{
+"type": "regular",
+"name": "Tableau 20",
+"n": 1,
+"out": [
+"#1f77b4"
+]
+},
+{
+"type": "regular",
+"name": "Tableau 20",
+"n": 3,
+"out": [
+"#1f77b4",
+"#aec7e8",
+"#ff7f0e"
+]
+},
+{
+"type": "regular",
+"name": "Tableau 20",
+"n": 4,
+"out": [
+"#1f77b4",
+"#aec7e8",
+"#ff7f0e",
+"#ffbb78"
+]
+},
+{
+"type": "regular",
+"name": "Tableau 20",
+"n": 5,
+"out": [
+"#1f77b4",
+"#aec7e8",
+"#ff7f0e",
+"#ffbb78",
+"#2ca02c"
+]
+},
+{
+"type": "regular",
+"name": "Tableau 20",
+"n": 9,
+"out": [
+"#1f77b4",
+"#aec7e8",
+"#ff7f0e",
+"#ffbb78",
+"#2ca02c",
+"#98df8a",
+"#d62728",
+"#ff9896",
+"#9467bd"
+]
+},
+{
+"type": "regular",
+"name": "Tableau 20",
+"n": 12,
+"out": [
+"#1f77b4",
+"#aec7e8",
+"#ff7f0e",
+"#ffbb78",
+"#2ca02c",
+"#98df8a",
+"#d62728",
+"#ff9896",
+"#9467bd",
+"#c5b0d5",
+"#8c564b",
+"#c49c94"
+]
+},
+{
+"type": "regular",
+"name": "Tableau 20",
+"n": 14,
+"out": [
+"#1f77b4",
+"#aec7e8",
+"#ff7f0e",
+"#ffbb78",
+"#2ca02c",
+"#98df8a",
+"#d62728",
+"#ff9896",
+"#9467bd",
+"#c5b0d5",
+"#8c564b",
+"#c49c94",
+"#e377c2",
+"#f7b6d2"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set1",
+"n": 1,
+"out": [
+"#e41a1c"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set1",
+"n": 3,
+"out": [
+"#e41a1c",
+"#377eb8",
+"#4daf4a"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set1",
+"n": 4,
+"out": [
+"#e41a1c",
+"#377eb8",
+"#4daf4a",
+"#984ea3"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set1",
+"n": 5,
+"out": [
+"#e41a1c",
+"#377eb8",
+"#4daf4a",
+"#984ea3",
+"#ff7f00"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set1",
+"n": 9,
+"out": [
+"#e41a1c",
+"#377eb8",
+"#4daf4a",
+"#984ea3",
+"#ff7f00",
+"#ffff33",
+"#a65628",
+"#f781bf",
+"#999999"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set1",
+"n": 12,
+"out": [
+"#e41a1c",
+"#377eb8",
+"#4daf4a",
+"#984ea3",
+"#ff7f00",
+"#ffff33",
+"#a65628",
+"#f781bf",
+"#999999",
+"#e41a1c",
+"#377eb8",
+"#4daf4a"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set1",
+"n": 14,
+"out": [
+"#e41a1c",
+"#377eb8",
+"#4daf4a",
+"#984ea3",
+"#ff7f00",
+"#ffff33",
+"#a65628",
+"#f781bf",
+"#999999",
+"#e41a1c",
+"#377eb8",
+"#4daf4a",
+"#984ea3",
+"#ff7f00"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set2",
+"n": 1,
+"out": [
+"#66c2a5"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set2",
+"n": 3,
+"out": [
+"#66c2a5",
+"#fc8d62",
+"#8da0cb"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set2",
+"n": 4,
+"out": [
+"#66c2a5",
+"#fc8d62",
+"#8da0cb",
+"#e78ac3"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set2",
+"n": 5,
+"out": [
+"#66c2a5",
+"#fc8d62",
+"#8da0cb",
+"#e78ac3",
+"#a6d854"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set2",
+"n": 9,
+"out": [
+"#66c2a5",
+"#fc8d62",
+"#8da0cb",
+"#e78ac3",
+"#a6d854",
+"#ffd92f",
+"#e5c494",
+"#b3b3b3",
+"#66c2a5"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set2",
+"n": 12,
+"out": [
+"#66c2a5",
+"#fc8d62",
+"#8da0cb",
+"#e78ac3",
+"#a6d854",
+"#ffd92f",
+"#e5c494",
+"#b3b3b3",
+"#66c2a5",
+"#fc8d62",
+"#8da0cb",
+"#e78ac3"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set2",
+"n": 14,
+"out": [
+"#66c2a5",
+"#fc8d62",
+"#8da0cb",
+"#e78ac3",
+"#a6d854",
+"#ffd92f",
+"#e5c494",
+"#b3b3b3",
+"#66c2a5",
+"#fc8d62",
+"#8da0cb",
+"#e78ac3",
+"#a6d854",
+"#ffd92f"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set3",
+"n": 1,
+"out": [
+"#8dd3c7"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set3",
+"n": 3,
+"out": [
+"#8dd3c7",
+"#ffffb3",
+"#bebada"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set3",
+"n": 4,
+"out": [
+"#8dd3c7",
+"#ffffb3",
+"#bebada",
+"#fb8072"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set3",
+"n": 5,
+"out": [
+"#8dd3c7",
+"#ffffb3",
+"#bebada",
+"#fb8072",
+"#80b1d3"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set3",
+"n": 9,
+"out": [
+"#8dd3c7",
+"#ffffb3",
+"#bebada",
+"#fb8072",
+"#80b1d3",
+"#fdb462",
+"#b3de69",
+"#fccde5",
+"#d9d9d9"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set3",
+"n": 12,
+"out": [
+"#8dd3c7",
+"#ffffb3",
+"#bebada",
+"#fb8072",
+"#80b1d3",
+"#fdb462",
+"#b3de69",
+"#fccde5",
+"#d9d9d9",
+"#bc80bd",
+"#ccebc5",
+"#ffed6f"
+]
+},
+{
+"type": "regular",
+"name": "ColorBrewer Set3",
+"n": 14,
+"out": [
+"#8dd3c7",
+"#ffffb3",
+"#bebada",
+"#fb8072",
+"#80b1d3",
+"#fdb462",
+"#b3de69",
+"#fccde5",
+"#d9d9d9",
+"#bc80bd",
+"#ccebc5",
+"#ffed6f",
+"#8dd3c7",
+"#ffffb3"
+]
+},
+{
+"type": "regular",
+"name": "Paired",
+"n": 1,
+"out": [
+"#a6cee3"
+]
+},
+{
+"type": "regular",
+"name": "Paired",
+"n": 3,
+"out": [
+"#a6cee3",
+"#1f78b4",
+"#b2df8a"
+]
+},
+{
+"type": "regular",
+"name": "Paired",
+"n": 4,
+"out": [
+"#a6cee3",
+"#1f78b4",
+"#b2df8a",
+"#33a02c"
+]
+},
+{
+"type": "regular",
+"name": "Paired",
+"n": 5,
+"out": [
+"#a6cee3",
+"#1f78b4",
+"#b2df8a",
+"#33a02c",
+"#fb9a99"
+]
+},
+{
+"type": "regular",
+"name": "Paired",
+"n": 9,
+"out": [
+"#a6cee3",
+"#1f78b4",
+"#b2df8a",
+"#33a02c",
+"#fb9a99",
+"#e31a1c",
+"#fdbf6f",
+"#ff7f00",
+"#cab2d6"
+]
+},
+{
+"type": "regular",
+"name": "Paired",
+"n": 12,
+"out": [
+"#a6cee3",
+"#1f78b4",
+"#b2df8a",
+"#33a02c",
+"#fb9a99",
+"#e31a1c",
+"#fdbf6f",
+"#ff7f00",
+"#cab2d6",
+"#6a3d9a",
+"#ffff99",
+"#b15928"
+]
+},
+{
+"type": "regular",
+"name": "Paired",
+"n": 14,
+"out": [
+"#a6cee3",
+"#1f78b4",
+"#b2df8a",
+"#33a02c",
+"#fb9a99",
+"#e31a1c",
+"#fdbf6f",
+"#ff7f00",
+"#cab2d6",
+"#6a3d9a",
+"#ffff99",
+"#b15928",
+"#a6cee3",
+"#1f78b4"
+]
+},
+{
+"type": "regular",
+"name": "Dark2",
+"n": 1,
+"out": [
+"#1b9e77"
+]
+},
+{
+"type": "regular",
+"name": "Dark2",
+"n": 3,
+"out": [
+"#1b9e77",
+"#d95f02",
+"#7570b3"
+]
+},
+{
+"type": "regular",
+"name": "Dark2",
+"n": 4,
+"out": [
+"#1b9e77",
+"#d95f02",
+"#7570b3",
+"#e7298a"
+]
+},
+{
+"type": "regular",
+"name": "Dark2",
+"n": 5,
+"out": [
+"#1b9e77",
+"#d95f02",
+"#7570b3",
+"#e7298a",
+"#66a61e"
+]
+},
+{
+"type": "regular",
+"name": "Dark2",
+"n": 9,
+"out": [
+"#1b9e77",
+"#d95f02",
+"#7570b3",
+"#e7298a",
+"#66a61e",
+"#e6ab02",
+"#a6761d",
+"#666666",
+"#1b9e77"
+]
+},
+{
+"type": "regular",
+"name": "Dark2",
+"n": 12,
+"out": [
+"#1b9e77",
+"#d95f02",
+"#7570b3",
+"#e7298a",
+"#66a61e",
+"#e6ab02",
+"#a6761d",
+"#666666",
+"#1b9e77",
+"#d95f02",
+"#7570b3",
+"#e7298a"
+]
+},
+{
+"type": "regular",
+"name": "Dark2",
+"n": 14,
+"out": [
+"#1b9e77",
+"#d95f02",
+"#7570b3",
+"#e7298a",
+"#66a61e",
+"#e6ab02",
+"#a6761d",
+"#666666",
+"#1b9e77",
+"#d95f02",
+"#7570b3",
+"#e7298a",
+"#66a61e",
+"#e6ab02"
+]
+},
+{
+"type": "regular",
+"name": "Accent",
+"n": 1,
+"out": [
+"#7fc97f"
+]
+},
+{
+"type": "regular",
+"name": "Accent",
+"n": 3,
+"out": [
+"#7fc97f",
+"#beaed4",
+"#fdc086"
+]
+},
+{
+"type": "regular",
+"name": "Accent",
+"n": 4,
+"out": [
+"#7fc97f",
+"#beaed4",
+"#fdc086",
+"#ffff99"
+]
+},
+{
+"type": "regular",
+"name": "Accent",
+"n": 5,
+"out": [
+"#7fc97f",
+"#beaed4",
+"#fdc086",
+"#ffff99",
+"#386cb0"
+]
+},
+{
+"type": "regular",
+"name": "Accent",
+"n": 9,
+"out": [
+"#7fc97f",
+"#beaed4",
+"#fdc086",
+"#ffff99",
+"#386cb0",
+"#f0027f",
+"#bf5b17",
+"#666666",
+"#7fc97f"
+]
+},
+{
+"type": "regular",
+"name": "Accent",
+"n": 12,
+"out": [
+"#7fc97f",
+"#beaed4",
+"#fdc086",
+"#ffff99",
+"#386cb0",
+"#f0027f",
+"#bf5b17",
+"#666666",
+"#7fc97f",
+"#beaed4",
+"#fdc086",
+"#ffff99"
+]
+},
+{
+"type": "regular",
+"name": "Accent",
+"n": 14,
+"out": [
+"#7fc97f",
+"#beaed4",
+"#fdc086",
+"#ffff99",
+"#386cb0",
+"#f0027f",
+"#bf5b17",
+"#666666",
+"#7fc97f",
+"#beaed4",
+"#fdc086",
+"#ffff99",
+"#386cb0",
+"#f0027f"
+]
+},
+{
+"type": "regular",
+"name": "Pastel1",
+"n": 1,
+"out": [
+"#fbb4ae"
+]
+},
+{
+"type": "regular",
+"name": "Pastel1",
+"n": 3,
+"out": [
+"#fbb4ae",
+"#b3cde3",
+"#ccebc5"
+]
+},
+{
+"type": "regular",
+"name": "Pastel1",
+"n": 4,
+"out": [
+"#fbb4ae",
+"#b3cde3",
+"#ccebc5",
+"#decbe4"
+]
+},
+{
+"type": "regular",
+"name": "Pastel1",
+"n": 5,
+"out": [
+"#fbb4ae",
+"#b3cde3",
+"#ccebc5",
+"#decbe4",
+"#fed9a6"
+]
+},
+{
+"type": "regular",
+"name": "Pastel1",
+"n": 9,
+"out": [
+"#fbb4ae",
+"#b3cde3",
+"#ccebc5",
+"#decbe4",
+"#fed9a6",
+"#ffffcc",
+"#e5d8bd",
+"#fddaec",
+"#f2f2f2"
+]
+},
+{
+"type": "regular",
+"name": "Pastel1",
+"n": 12,
+"out": [
+"#fbb4ae",
+"#b3cde3",
+"#ccebc5",
+"#decbe4",
+"#fed9a6",
+"#ffffcc",
+"#e5d8bd",
+"#fddaec",
+"#f2f2f2",
+"#fbb4ae",
+"#b3cde3",
+"#ccebc5"
+]
+},
+{
+"type": "regular",
+"name": "Pastel1",
+"n": 14,
+"out": [
+"#fbb4ae",
+"#b3cde3",
+"#ccebc5",
+"#decbe4",
+"#fed9a6",
+"#ffffcc",
+"#e5d8bd",
+"#fddaec",
+"#f2f2f2",
+"#fbb4ae",
+"#b3cde3",
+"#ccebc5",
+"#decbe4",
+"#fed9a6"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Viridis",
+"n": 1,
+"out": [
+"#21918c"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Viridis",
+"n": 3,
+"out": [
+"#440154",
+"#21918c",
+"#fde725"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Viridis",
+"n": 4,
+"out": [
+"#440154",
+"#33678d",
+"#40b777",
+"#fde725"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Viridis",
+"n": 5,
+"out": [
+"#440154",
+"#3b528b",
+"#21918c",
+"#5ec962",
+"#fde725"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Viridis",
+"n": 9,
+"out": [
+"#440154",
+"#472d7b",
+"#3b528b",
+"#2c728e",
+"#21918c",
+"#28ae80",
+"#5ec962",
+"#addc30",
+"#fde725"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Viridis",
+"n": 12,
+"out": [
+"#440154",
+"#472370",
+"#433f82",
+"#3a588c",
+"#2e6f8e",
+"#27868d",
+"#259b88",
+"#30b07e",
+"#57c468",
+"#8dd34b",
+"#c4df2d",
+"#fde725"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Viridis",
+"n": 14,
+"out": [
+"#440154",
+"#471f6c",
+"#45367f",
+"#3e4d89",
+"#36618c",
+"#2c748e",
+"#27878d",
+"#259a89",
+"#28ac81",
+"#4bbc71",
+"#6dcc5c",
+"#9dd83f",
+"#cde12c",
+"#fde725"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Magma",
+"n": 1,
+"out": [
+"#b5367a"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Magma",
+"n": 3,
+"out": [
+"#000004",
+"#b5367a",
+"#fcfdbf"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Magma",
+"n": 4,
+"out": [
+"#000004",
+"#711e7f",
+"#ed6463",
+"#fcfdbf"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Magma",
+"n": 5,
+"out": [
+"#000004",
+"#4f127b",
+"#b5367a",
+"#fb8761",
+"#fcfdbf"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Magma",
+"n": 9,
+"out": [
+"#000004",
+"#1c1044",
+"#4f127b",
+"#812581",
+"#b5367a",
+"#e55064",
+"#fb8761",
+"#fec287",
+"#fcfdbf"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Magma",
+"n": 12,
+"out": [
+"#000004",
+"#180e33",
+"#33125c",
+"#59157c",
+"#7d2380",
+"#a32f7d",
+"#c73f72",
+"#e75664",
+"#f77e62",
+"#fea875",
+"#ffd296",
+"#fcfdbf"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Magma",
+"n": 14,
+"out": [
+"#000004",
+"#160c2d",
+"#281150",
+"#471372",
+"#671a7e",
+"#852680",
+"#a5307c",
+"#c43e74",
+"#e14e66",
+"#f16f63",
+"#fc9067",
+"#feb57e",
+"#ffd99c",
+"#fcfdbf"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Inferno",
+"n": 1,
+"out": [
+"#a52c60"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Inferno",
+"n": 3,
+"out": [
+"#000004",
+"#a52c60",
+"#fcffa4"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Inferno",
+"n": 4,
+"out": [
+"#000004",
+"#69166c",
+"#d9513d",
+"#fcffa4"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Inferno",
+"n": 5,
+"out": [
+"#000004",
+"#4a0c6b",
+"#a52c60",
+"#ed6925",
+"#fcffa4"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Inferno",
+"n": 9,
+"out": [
+"#000004",
+"#1b0c41",
+"#4a0c6b",
+"#781c6d",
+"#a52c60",
+"#cf4446",
+"#ed6925",
+"#fb9b06",
+"#fcffa4"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Inferno",
+"n": 12,
+"out": [
+"#000004",
+"#180a31",
+"#300d54",
+"#530f6b",
+"#741a6d",
+"#952665",
+"#b53557",
+"#d24844",
+"#e8622d",
+"#f5851a",
+"#ffb740",
+"#fcffa4"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Inferno",
+"n": 14,
+"out": [
+"#000004",
+"#16092b",
+"#260d4a",
+"#430d64",
+"#60136c",
+"#7c1d6c",
+"#982764",
+"#b23358",
+"#cc4248",
+"#df5837",
+"#ef7123",
+"#f89013",
+"#ffc250",
+"#fcffa4"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Plasma",
+"n": 1,
+"out": [
+"#bd3786"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Plasma",
+"n": 3,
+"out": [
+"#0d0887",
+"#bd3786",
+"#f0f921"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Plasma",
+"n": 4,
+"out": [
+"#0d0887",
+"#8f10a1",
+"#df6364",
+"#f0f921"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Plasma",
+"n": 5,
+"out": [
+"#0d0887",
+"#7201a8",
+"#bd3786",
+"#ed7953",
+"#f0f921"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Plasma",
+"n": 9,
+"out": [
+"#0d0887",
+"#46039f",
+"#7201a8",
+"#9c179e",
+"#bd3786",
+"#d8576b",
+"#ed7953",
+"#fb9f3a",
+"#f0f921"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Plasma",
+"n": 12,
+"out": [
+"#0d0887",
+"#3a0598",
+"#5b02a3",
+"#7a04a6",
+"#99159f",
+"#b22c8f",
+"#c7437c",
+"#da5a69",
+"#e97358",
+"#f58e47",
+"#fab836",
+"#f0f921"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Plasma",
+"n": 14,
+"out": [
+"#0d0887",
+"#350596",
+"#5102a1",
+"#6c01a7",
+"#870ba3",
+"#9f1a9c",
+"#b42e8d",
+"#c6417e",
+"#d6556d",
+"#e46a5f",
+"#ef7f50",
+"#f89641",
+"#f9c334",
+"#f0f921"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Cividis",
+"n": 1,
+"out": [
+"#707173"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Cividis",
+"n": 3,
+"out": [
+"#00204d",
+"#707173",
+"#ffea46"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Cividis",
+"n": 4,
+"out": [
+"#00204d",
+"#4e566c",
+"#938e78",
+"#ffea46"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Cividis",
+"n": 5,
+"out": [
+"#00204d",
+"#39486b",
+"#707173",
+"#a69d75",
+"#ffea46"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Cividis",
+"n": 9,
+"out": [
+"#00204d",
+"#00336f",
+"#39486b",
+"#575d6d",
+"#707173",
+"#8a8779",
+"#a69d75",
+"#c4b56c",
+"#ffea46"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Cividis",
+"n": 12,
+"out": [
+"#00204d",
+"#002e66",
+"#243c6d",
+"#3f4c6b",
+"#545b6d",
+"#676a71",
+"#797975",
+"#8d8979",
+"#a19976",
+"#b6aa70",
+"#d4c364",
+"#ffea46"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "Cividis",
+"n": 14,
+"out": [
+"#00204d",
+"#002c62",
+"#17386e",
+"#34456c",
+"#48526c",
+"#595f6d",
+"#686b71",
+"#787875",
+"#888579",
+"#999377",
+"#aba174",
+"#bdaf6e",
+"#dbc960",
+"#ffea46"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Blues",
+"n": 1,
+"out": [
+"#6baed6"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Blues",
+"n": 3,
+"out": [
+"#f7fbff",
+"#6baed6",
+"#08306b"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Blues",
+"n": 4,
+"out": [
+"#f7fbff",
+"#acd0e6",
+"#3987c0",
+"#08306b"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Blues",
+"n": 5,
+"out": [
+"#f7fbff",
+"#c6dbef",
+"#6baed6",
+"#2171b5",
+"#08306b"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Blues",
+"n": 9,
+"out": [
+"#f7fbff",
+"#deebf7",
+"#c6dbef",
+"#9ecae1",
+"#6baed6",
+"#4292c6",
+"#2171b5",
+"#08519c",
+"#08306b"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Blues",
+"n": 12,
+"out": [
+"#f7fbff",
+"#e5eff9",
+"#d3e4f3",
+"#bfd8ec",
+"#a2cce2",
+"#7fb8da",
+"#5da4d0",
+"#408fc4",
+"#2877b8",
+"#165fa7",
+"#09488e",
+"#08306b"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Blues",
+"n": 14,
+"out": [
+"#f7fbff",
+"#e8f1fa",
+"#d8e7f5",
+"#caddf0",
+"#b4d3e9",
+"#9ac8e0",
+"#7cb7d9",
+"#5fa5d1",
+"#4694c7",
+"#3280bd",
+"#1e6cb1",
+"#1058a2",
+"#094489",
+"#08306b"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Greens",
+"n": 1,
+"out": [
+"#74c476"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Greens",
+"n": 3,
+"out": [
+"#f7fcf5",
+"#74c476",
+"#00441b"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Greens",
+"n": 4,
+"out": [
+"#f7fcf5",
+"#aedea7",
+"#37a055",
+"#00441b"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Greens",
+"n": 5,
+"out": [
+"#f7fcf5",
+"#c7e9c0",
+"#74c476",
+"#238b45",
+"#00441b"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Greens",
+"n": 9,
+"out": [
+"#f7fcf5",
+"#e5f5e0",
+"#c7e9c0",
+"#a1d99b",
+"#74c476",
+"#41ab5d",
+"#238b45",
+"#006d2c",
+"#00441b"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Greens",
+"n": 12,
+"out": [
+"#f7fcf5",
+"#eaf7e6",
+"#d7f0d1",
+"#c0e6b9",
+"#a5da9e",
+"#85cc83",
+"#63bb6d",
+"#3ea85b",
+"#299149",
+"#137a37",
+"#006127",
+"#00441b"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Greens",
+"n": 14,
+"out": [
+"#f7fcf5",
+"#ecf8e8",
+"#def2d9",
+"#ccebc5",
+"#b6e2af",
+"#9ed798",
+"#82ca81",
+"#65bc6e",
+"#45ad5f",
+"#319a50",
+"#1f8641",
+"#0a7432",
+"#005d25",
+"#00441b"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Oranges",
+"n": 1,
+"out": [
+"#fd8d3c"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Oranges",
+"n": 3,
+"out": [
+"#fff5eb",
+"#fd8d3c",
+"#7f2704"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Oranges",
+"n": 4,
+"out": [
+"#fff5eb",
+"#feb97d",
+"#e95e0d",
+"#7f2704"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Oranges",
+"n": 5,
+"out": [
+"#fff5eb",
+"#fdd0a2",
+"#fd8d3c",
+"#d94801",
+"#7f2704"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Oranges",
+"n": 9,
+"out": [
+"#fff5eb",
+"#fee6ce",
+"#fdd0a2",
+"#fdae6b",
+"#fd8d3c",
+"#f16913",
+"#d94801",
+"#a63603",
+"#7f2704"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Oranges",
+"n": 12,
+"out": [
+"#fff5eb",
+"#feead6",
+"#fedcba",
+"#feca98",
+"#fdb170",
+"#fe994e",
+"#f9802f",
+"#ef6611",
+"#dd4e04",
+"#bd3e02",
+"#9b3204",
+"#7f2704"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Oranges",
+"n": 14,
+"out": [
+"#fff5eb",
+"#ffecd9",
+"#fee1c4",
+"#fdd3a9",
+"#fec089",
+"#fdac67",
+"#fd974b",
+"#fa8231",
+"#f26c17",
+"#e45809",
+"#d14501",
+"#b23a03",
+"#973004",
+"#7f2704"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Purples",
+"n": 1,
+"out": [
+"#9e9ac8"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Purples",
+"n": 3,
+"out": [
+"#fcfbfd",
+"#9e9ac8",
+"#3f007d"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Purples",
+"n": 4,
+"out": [
+"#fcfbfd",
+"#c6c7e1",
+"#796eb2",
+"#3f007d"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Purples",
+"n": 5,
+"out": [
+"#fcfbfd",
+"#dadaeb",
+"#9e9ac8",
+"#6a51a3",
+"#3f007d"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Purples",
+"n": 9,
+"out": [
+"#fcfbfd",
+"#efedf5",
+"#dadaeb",
+"#bcbddc",
+"#9e9ac8",
+"#807dba",
+"#6a51a3",
+"#54278f",
+"#3f007d"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Purples",
+"n": 12,
+"out": [
+"#fcfbfd",
+"#f3f1f7",
+"#e5e4f0",
+"#d5d5e8",
+"#bfc0dd",
+"#a9a7cf",
+"#938fc3",
+"#7e79b8",
+"#6e59a7",
+"#5e3b98",
+"#4e1e8a",
+"#3f007d"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer Purples",
+"n": 14,
+"out": [
+"#fcfbfd",
+"#f4f2f8",
+"#eae9f3",
+"#dddded",
+"#cccde4",
+"#babada",
+"#a7a5ce",
+"#9591c4",
+"#827fbb",
+"#7465ae",
+"#674ba0",
+"#593194",
+"#4c1b88",
+"#3f007d"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer YlGnBu",
+"n": 1,
+"out": [
+"#41b6c4"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer YlGnBu",
+"n": 3,
+"out": [
+"#ffffd9",
+"#41b6c4",
+"#081d58"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer YlGnBu",
+"n": 4,
+"out": [
+"#ffffd9",
+"#99d6b9",
+"#2280b8",
+"#081d58"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer YlGnBu",
+"n": 5,
+"out": [
+"#ffffd9",
+"#c7e9b4",
+"#41b6c4",
+"#225ea8",
+"#081d58"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer YlGnBu",
+"n": 9,
+"out": [
+"#ffffd9",
+"#edf8b1",
+"#c7e9b4",
+"#7fcdbb",
+"#41b6c4",
+"#1d91c0",
+"#225ea8",
+"#253494",
+"#081d58"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer YlGnBu",
+"n": 12,
+"out": [
+"#ffffd9",
+"#f2fabc",
+"#dcf1b2",
+"#bbe4b5",
+"#86d0ba",
+"#5cbec1",
+"#37a8c3",
+"#1f8cbe",
+"#2367ac",
+"#26479d",
+"#1d2e83",
+"#081d58"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer YlGnBu",
+"n": 14,
+"out": [
+"#ffffd9",
+"#f4fbc0",
+"#e4f5b2",
+"#cdebb4",
+"#a8dcb7",
+"#7bcbbc",
+"#58bdc1",
+"#39aac3",
+"#2194c0",
+"#2375b3",
+"#2458a5",
+"#263e99",
+"#1a2b7c",
+"#081d58"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer YlOrRd",
+"n": 1,
+"out": [
+"#fd8d3c"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer YlOrRd",
+"n": 3,
+"out": [
+"#ffffcc",
+"#fd8d3c",
+"#800026"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer YlOrRd",
+"n": 4,
+"out": [
+"#ffffcc",
+"#ffbf5a",
+"#f44025",
+"#800026"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer YlOrRd",
+"n": 5,
+"out": [
+"#ffffcc",
+"#fed976",
+"#fd8d3c",
+"#e31a1c",
+"#800026"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer YlOrRd",
+"n": 9,
+"out": [
+"#ffffcc",
+"#ffeda0",
+"#fed976",
+"#feb24c",
+"#fd8d3c",
+"#fc4e2a",
+"#e31a1c",
+"#bd0026",
+"#800026"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer YlOrRd",
+"n": 12,
+"out": [
+"#ffffcc",
+"#fff2ac",
+"#ffe48d",
+"#fed26e",
+"#feb650",
+"#fe9b42",
+"#fd7835",
+"#fa4a29",
+"#e8271e",
+"#ce0d22",
+"#ac0026",
+"#800026"
+]
+},
+{
+"type": "ordered-sequential",
+"name": "ColorBrewer YlOrRd",
+"n": 14,
+"out": [
+"#ffffcc",
+"#fff4b1",
+"#ffe896",
+"#fedc7d",
+"#ffc763",
+"#feaf4b",
+"#fe9941",
+"#fd7c36",
+"#fc542b",
+"#ef3622",
+"#dd171e",
+"#c60624",
+"#a50026",
+"#800026"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdBu",
+"n": 1,
+"out": [
+"#f7f7f7"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdBu",
+"n": 3,
+"out": [
+"#67001f",
+"#f7f7f7",
+"#053061"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdBu",
+"n": 4,
+"out": [
+"#67001f",
+"#f8b799",
+"#a8d0e4",
+"#053061"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdBu",
+"n": 5,
+"out": [
+"#67001f",
+"#e68367",
+"#f7f7f7",
+"#6eacd1",
+"#053061"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdBu",
+"n": 9,
+"out": [
+"#67001f",
+"#bb2f33",
+"#e68367",
+"#fccdb5",
+"#f7f7f7",
+"#c2ddec",
+"#6eacd1",
+"#2b71b2",
+"#053061"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdBu",
+"n": 12,
+"out": [
+"#67001f",
+"#ab162a",
+"#d05547",
+"#ec9373",
+"#fbc7ad",
+"#faeae1",
+"#e6eff4",
+"#bbd9e9",
+"#7fb7d7",
+"#3e8bbf",
+"#1e61a5",
+"#053061"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdBu",
+"n": 14,
+"out": [
+"#67001f",
+"#a01228",
+"#c6443d",
+"#e0765d",
+"#f5a987",
+"#fcd3bc",
+"#faece4",
+"#e9f0f4",
+"#c8e0ed",
+"#97c7df",
+"#5fa2cb",
+"#357eb8",
+"#1b599a",
+"#053061"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdYlBu",
+"n": 1,
+"out": [
+"#ffffbf"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdYlBu",
+"n": 3,
+"out": [
+"#a50026",
+"#ffffbf",
+"#313695"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdYlBu",
+"n": 4,
+"out": [
+"#a50026",
+"#febf70",
+"#bde2ee",
+"#313695"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdYlBu",
+"n": 5,
+"out": [
+"#a50026",
+"#f98f52",
+"#ffffbf",
+"#90c3dd",
+"#313695"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdYlBu",
+"n": 9,
+"out": [
+"#a50026",
+"#de422e",
+"#f98f52",
+"#fed484",
+"#ffffbf",
+"#d3ecf4",
+"#90c3dd",
+"#5283bb",
+"#313695"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdYlBu",
+"n": 12,
+"out": [
+"#a50026",
+"#d22d27",
+"#ef633e",
+"#fb9d59",
+"#ffce7f",
+"#fff1aa",
+"#f2f9d9",
+"#cdeaf3",
+"#9ccde2",
+"#6ca3cc",
+"#446fb1",
+"#313695"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdYlBu",
+"n": 14,
+"out": [
+"#a50026",
+"#cb2727",
+"#e75336",
+"#f7824c",
+"#fdb265",
+"#fed889",
+"#fff3ad",
+"#f5fad5",
+"#d8eff6",
+"#afdbea",
+"#85bad8",
+"#5f93c4",
+"#4266ad",
+"#313695"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "Spectral",
+"n": 1,
+"out": [
+"#ffffbf"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "Spectral",
+"n": 3,
+"out": [
+"#9e0142",
+"#ffffbf",
+"#5e4fa2"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "Spectral",
+"n": 4,
+"out": [
+"#9e0142",
+"#febf6f",
+"#bfe5a0",
+"#5e4fa2"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "Spectral",
+"n": 5,
+"out": [
+"#9e0142",
+"#f98f52",
+"#ffffbf",
+"#8bcfa5",
+"#5e4fa2"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "Spectral",
+"n": 9,
+"out": [
+"#9e0142",
+"#dd4b4d",
+"#f98f52",
+"#fed480",
+"#ffffbf",
+"#d8ef9b",
+"#8bcfa5",
+"#4596b7",
+"#5e4fa2"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "Spectral",
+"n": 12,
+"out": [
+"#9e0142",
+"#d03a4e",
+"#ee6546",
+"#fb9d59",
+"#fece7c",
+"#fff1a7",
+"#f4faad",
+"#d1ec9d",
+"#9ad6a4",
+"#60b7aa",
+"#3a83bb",
+"#5e4fa2"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "Spectral",
+"n": 14,
+"out": [
+"#9e0142",
+"#c8334c",
+"#e65849",
+"#f7824c",
+"#fdb264",
+"#fed884",
+"#fff3ab",
+"#f5fbb0",
+"#ddf19a",
+"#b0dfa3",
+"#7dcaa5",
+"#55a7b1",
+"#437bb7",
+"#5e4fa2"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "BrBG",
+"n": 1,
+"out": [
+"#f5f5f5"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "BrBG",
+"n": 3,
+"out": [
+"#543005",
+"#f5f5f5",
+"#003c30"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "BrBG",
+"n": 4,
+"out": [
+"#543005",
+"#e7ce94",
+"#99d7cd",
+"#003c30"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "BrBG",
+"n": 5,
+"out": [
+"#543005",
+"#d0a155",
+"#f5f5f5",
+"#5cb2a8",
+"#003c30"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "BrBG",
+"n": 9,
+"out": [
+"#543005",
+"#995d13",
+"#d0a155",
+"#f1deb1",
+"#f5f5f5",
+"#b6e3dc",
+"#5cb2a8",
+"#12726a",
+"#003c30"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "BrBG",
+"n": 12,
+"out": [
+"#543005",
+"#874e0a",
+"#b67827",
+"#d7b067",
+"#eedaa9",
+"#f6efde",
+"#e0f0ee",
+"#aee0d8",
+"#6dbeb3",
+"#2d8e86",
+"#01625a",
+"#003c30"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "BrBG",
+"n": 14,
+"out": [
+"#543005",
+"#7f4909",
+"#a76a1d",
+"#ca9546",
+"#e1c582",
+"#f3e2b8",
+"#f6f0e2",
+"#e4f1ef",
+"#bce6df",
+"#86cfc4",
+"#4ea79e",
+"#218078",
+"#015c53",
+"#003c30"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "PiYG",
+"n": 1,
+"out": [
+"#f7f7f7"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "PiYG",
+"n": 3,
+"out": [
+"#8e0152",
+"#f7f7f7",
+"#276419"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "PiYG",
+"n": 4,
+"out": [
+"#8e0152",
+"#f5c4e1",
+"#c8e89f",
+"#276419"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "PiYG",
+"n": 5,
+"out": [
+"#8e0152",
+"#e897c4",
+"#f7f7f7",
+"#9cce64",
+"#276419"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "PiYG",
+"n": 9,
+"out": [
+"#8e0152",
+"#cc3a89",
+"#e897c4",
+"#fad6ea",
+"#f7f7f7",
+"#dbf0bd",
+"#9cce64",
+"#5a9c29",
+"#276419"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "PiYG",
+"n": 12,
+"out": [
+"#8e0152",
+"#c01979",
+"#da6aa5",
+"#eca5ce",
+"#f9d1e7",
+"#faedf3",
+"#eff6e5",
+"#d6eeb5",
+"#a9d774",
+"#76b43b",
+"#4a8e20",
+"#276419"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "PiYG",
+"n": 14,
+"out": [
+"#8e0152",
+"#b81573",
+"#d35497",
+"#e48bbb",
+"#f2b9dc",
+"#fbdaec",
+"#faeef4",
+"#f1f6e8",
+"#dff2c5",
+"#bce38c",
+"#91c757",
+"#68a832",
+"#44871f",
+"#276419"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "PRGn",
+"n": 1,
+"out": [
+"#f7f7f7"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "PRGn",
+"n": 3,
+"out": [
+"#40004b",
+"#f7f7f7",
+"#00441b"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "PRGn",
+"n": 4,
+"out": [
+"#40004b",
+"#ceb4d7",
+"#b7e2b1",
+"#00441b"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "PRGn",
+"n": 5,
+"out": [
+"#40004b",
+"#ad8abd",
+"#f7f7f7",
+"#81c480",
+"#00441b"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "PRGn",
+"n": 9,
+"out": [
+"#40004b",
+"#7f3d8d",
+"#ad8abd",
+"#dec8e2",
+"#f7f7f7",
+"#ccebc6",
+"#81c480",
+"#2d8541",
+"#00441b"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "PRGn",
+"n": 12,
+"out": [
+"#40004b",
+"#71267e",
+"#9364a4",
+"#b796c5",
+"#dac3df",
+"#f0e7f0",
+"#e9f4e7",
+"#c7e8c0",
+"#92cf8f",
+"#4fa459",
+"#187334",
+"#00441b"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "PRGn",
+"n": 14,
+"out": [
+"#40004b",
+"#692176",
+"#895198",
+"#a680b6",
+"#c5a9d1",
+"#e1cde4",
+"#f1e9f1",
+"#ecf4e9",
+"#d1edcb",
+"#aadda4",
+"#72bc74",
+"#3f954d",
+"#146c30",
+"#00441b"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdYlGn",
+"n": 1,
+"out": [
+"#ffffbf"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdYlGn",
+"n": 3,
+"out": [
+"#a50026",
+"#ffffbf",
+"#006837"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdYlGn",
+"n": 4,
+"out": [
+"#a50026",
+"#febf6f",
+"#b7e075",
+"#006837"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdYlGn",
+"n": 5,
+"out": [
+"#a50026",
+"#f98f52",
+"#ffffbf",
+"#87cb67",
+"#006837"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdYlGn",
+"n": 9,
+"out": [
+"#a50026",
+"#de422e",
+"#f98f52",
+"#fed480",
+"#ffffbf",
+"#ccea83",
+"#87cb67",
+"#33a155",
+"#006837"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdYlGn",
+"n": 12,
+"out": [
+"#a50026",
+"#d22d27",
+"#ef633e",
+"#fb9d59",
+"#fece7c",
+"#fff1a7",
+"#eef8a7",
+"#c7e77f",
+"#95d168",
+"#5bb65f",
+"#18944e",
+"#006837"
+]
+},
+{
+"type": "ordered-diverging",
+"name": "RdYlGn",
+"n": 14,
+"out": [
+"#a50026",
+"#cb2727",
+"#e75336",
+"#f7824c",
+"#fdb264",
+"#fed884",
+"#fff3ab",
+"#f1f9ab",
+"#d1ec86",
+"#aadb6d",
+"#7bc665",
+"#49ac5a",
+"#148d4a",
+"#006837"
+]
+}
+]
+}

@@ -1,0 +1,1 @@
+export { generatorTool } from "./manifest";

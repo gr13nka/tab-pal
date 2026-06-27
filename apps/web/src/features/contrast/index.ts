@@ -1,0 +1,1 @@
+export { contrastTool } from "./manifest";

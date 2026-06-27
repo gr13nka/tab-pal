@@ -1,33 +1,48 @@
 # tab-pal
 
-`tab-pal` is a TUI that makes it easier to add and edit custom colour palettes in Tableau.
+A cross-platform **colour-palette tool** — generate, browse, and check palettes — built as one web/desktop/mobile codebase around a pure, perceptually-uniform colour engine. A [Coolors](https://coolors.co)-style app, offline-first.
 
-<p align="center">
-    <a href="https://pypi.python.org">
-        <img src="https://github.com/ben-n93/tab-pal/assets/84557025/d26de9c5-434e-4299-a35d-e97cb46ae57d" alt="tab-pal-demo">
-    </a>
-</p>
+> tab-pal began as a Python [Textual](https://textual.textualize.io/) TUI (still on PyPI as `tab-pal`, archived here under [`legacy/python-tui/`](./legacy/python-tui/)). This repo is the rebuild: a TypeScript port of the original colour engine, wrapped in a React app that ships to the browser (PWA), desktop, and mobile.
 
-## Installation
+## What it does (v1)
 
-You can install via `pip` although I suggest using [`pipx`](https://pipx.pypa.io/stable/) so you can use it regardless of which virtual environmental you have (or don't have) activated:
+- **Generator** — harmony-based palette generation (complementary, analogous, triadic, …) and curated presets, with per-swatch **lock + regenerate** (press <kbd>Space</kbd>). Global **undo/redo**.
+- **Library** — browse 27 curated presets (Tableau, ColorBrewer, viridis family) and send any to the generator.
+- **Contrast** — WCAG 2.x contrast checker with AA/AAA badges for normal and large text, and a live preview.
+- **Export** — copy/download palettes as a hex list (`.txt`), JSON, or CSS variables.
+- **Local-first** — palettes are saved in your browser (IndexedDB) or on disk (native), no account required. The storage layer is designed so cloud sync + accounts can be added without touching any tool.
 
+## Architecture
+
+A pnpm monorepo with a strict, lint-enforced **inward-only dependency rule** (engine → domain → store/storage → features → app):
+
+| Path | What |
+|------|------|
+| `packages/engine` | `@tab-pal/engine` — pure colour math (CIELAB/LCh), generators, presets, WCAG. **Zero DOM/app deps.** A faithful, parity-tested port of `legacy/python-tui/tab_pal/colors.py`. |
+| `apps/web/src/core` | Domain model (immutable `Color`/`Palette`), the Zustand + Immer + zundo history store, and the `PaletteStore` storage seam (IndexedDB now; Tauri fs + cloud sync designed-for). |
+| `apps/web/src/features/*` | Independent tool modules (generator, library, contrast, export). A tool never imports another; the app's router/nav are projections of a single `TOOLS` manifest — adding a tool is one new folder + one line. |
+| `apps/web/src/app` | Shell: router, nav, providers, undo/redo. |
+
+The TS engine is verified against the Python original by a **cross-language parity test** (`packages/engine/test/parity.test.ts`) that asserts byte-for-byte agreement over hundreds of cases.
+
+## Develop
+
+Requires Node 22+ and pnpm.
+
+```bash
+pnpm install            # install workspace deps
+pnpm dev                # run the web app (Vite) at http://localhost:5173
+pnpm test               # run all tests (engine + app)
+pnpm typecheck          # typecheck all packages
+pnpm --filter @tab-pal/web build   # production build (PWA)
 ```
-pipx install tab-pal
-```
 
-## Configuration
+Desktop/mobile packaging uses [Tauri 2](https://tauri.app) (one Rust shell for all native targets). Mobile store builds are planned for v1.x.
 
-`tab-pal` will automatically search for your `Preferences.tsp` file on launch however if it can't be found you'll be prompted for the file path.
+## Roadmap
 
-Alternatively, and what is recommended, is to create an enviromental variable called `TAB_PAL_FILE`, which `tab-pal` will search for on launch. This will ensure you don't need to keep supplying the file path every time you launch `tab-pal`.
+v2 adds more independent tools (gradient maker, image-to-palette, colour-blindness simulation, shades/tints); v3 adds accounts + cloud sync. The architecture is built so each lands as additive modules behind existing seams.
 
-## Usage
+## License
 
-Add, edit and delete palettes to your heart's content!
-
-You might need to restart Tableau if you're using `tab-pal` concurrently to add/edit palettes in order to see the changes applied in Tableau.
-
-Note that if you're using Terminal on Macbook some palette colour previews might not render correctly, as Terminal is limited to 256 colors. Instead, use [iTerm2](https://iterm2.com/) or [kitty](https://sw.kovidgoyal.net/kitty/).
-
-
+MIT. The colour engine is derived from the original `tab-pal` by Ben Nour (see `legacy/python-tui/`).

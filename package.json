@@ -1,0 +1,21 @@
+{
+  "name": "tab-pal-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck",
+    "dev": "pnpm --filter @tab-pal/web dev",
+    "engine:test": "pnpm --filter @tab-pal/engine test",
+    "engine:test:watch": "pnpm --filter @tab-pal/engine test:watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

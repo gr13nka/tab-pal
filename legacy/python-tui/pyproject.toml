@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "tab-pal"
 version = "0.1.1"
-description = "A TUI for adding and editing Tableau custom colour palettes."
+description = "A TUI for generating, browsing and editing colour palettes."
 authors = [{ name = "Ben Nour", email = "hello@ben-nour.com" }]
 dependencies = ["textual==0.81.0"]
 classifiers = [

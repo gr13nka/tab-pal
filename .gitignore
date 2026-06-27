@@ -162,3 +162,24 @@ cython_debug/
 
 # Custom
 .DS_Store
+
+# JS / Node monorepo
+node_modules/
+**/node_modules/
+.pnpm-store/
+*.tsbuildinfo
+.vite/
+coverage/
+.eslintcache
+
+# Tauri
+apps/web/src-tauri/target/
+apps/web/src-tauri/gen/
+
+# Editor / local env
+.env.local
+.vscode/
+.idea/
+
+# Tooling caches
+.serena/
